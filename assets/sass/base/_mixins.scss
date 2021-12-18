@@ -1,0 +1,200 @@
+$all: all 500ms ease-in-out;
+
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transform($transform...) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
+}
+
+// mixin for content top
+@mixin post($absolute,$left,$top,$width,$height) {
+  position: $absolute;
+  left: $left;
+  top: $top;
+  width: $width;
+  height: $height;
+}
+// mixin for content top
+@mixin aftert($absolute,$left,$top,$width,$height) {
+  position: $absolute;
+  left: $left;
+  top: $top;
+  width: $width;
+  height: $height;
+  content: ""; 
+}
+// mixin for content Bottom
+@mixin afterb($absolute,$left,$bottom,$width,$height) {
+  position: $absolute;
+  left: $left;
+  bottom: $bottom;
+  width: $width;
+  height: $height;
+  content: ""; 
+}
+// mixin for content Clock
+@mixin afterc($absolute,$top,$right,$bottom,$left,$width,$height) {
+  position: $absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  width: $width;
+  height: $height;
+  content: ""; 
+}
+
+@mixin linear-gradient($left, $right){
+  background: $left; /* Old browsers */
+  background: -moz-linear-gradient(left,  $left 0%, $right 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,$left), color-stop(100%,$right)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  $left 0%,$right 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  $left 0%,$right 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  $left 0%,$right 100%); /* IE10+ */
+  background: linear-gradient(to right,  $left 0%,$right 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin left-right($leftColor, $rightColor){
+  background: $rightColor;
+  background: -moz-linear-gradient(45deg, $leftColor 0%, $rightColor 100%);
+  background: -webkit-linear-gradient(45deg, $leftColor 0%, $rightColor 100%);
+  background: linear-gradient(45deg, $leftColor 0%, $rightColor 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="$leftColor", endColorstr="$rightColor",GradientType=1 );
+}
+
+@mixin linear-gradient-from-bottom($bottom, $top){
+  background: $bottom; /* Old browsers */
+  background: -moz-linear-gradient(bottom,  $bottom 0%, $top 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$bottom), color-stop(100%,$top)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(bottom,  $bottom 0%,$top 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(bottom,  $bottom 0%,$top 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(bottom,  $bottom 0%,$top 100%); /* IE10+ */
+  background: linear-gradient(to top,  $bottom 0%,$top 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+@mixin background-img-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin display-inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+
+@mixin flex($flex...) {
+  -webkit-box-flex: $flex;
+  -webkit-flex: $flex;
+  -ms-flex: $flex;
+  flex: $flex;
+}
+
+@mixin order($order...) {
+  -webkit-order: $order;
+  -ms-flex-order: $order;
+  order: $order;
+}
+
+@mixin mid-screen {
+  @media (max-width: 1024px) and (min-width: 769px) {
+    @content;
+  }
+}
+
+@mixin bp-xl-down {
+  @media only screen and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin bp-lg-down {
+  @media only screen and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin bp-lg-up {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin bp-md-down {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin bp-md-updown {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin bp-md-up {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin bp-sm-down {
+  @media only screen and (max-width: 575px) {
+    @content;
+    .embedded__topic {
+      display: table-row;
+    }
+    .nav--contact-info {
+      display: none;
+    }
+  }
+}
+
+@mixin bp-sm-up {
+  @media only screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+
+@mixin horizontal-gradient($from, $to, $stop: 100%) {
+  background-color: $from;
+  background-image: -moz-linear-gradient(left, $from 0%, $to $stop);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $from), color-stop($stop, $to));
+  background-image: -webkit-linear-gradient(left, $from 0%, $to $stop);
+  background-image: -o-linear-gradient(left, $from 0%, $to $stop);
+  background: -ms-linear-gradient(left, $from 0%, $to $stop);
+  background: linear-gradient(to right, $from 0%, $to $stop);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 );
+}
+

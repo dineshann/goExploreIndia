@@ -1,0 +1,1393 @@
+.tripSummary {
+    position: relative;
+    .card {
+        border: 1px solid $border-light-color;
+        border-radius: $border8;
+        margin-bottom: 1.75rem;
+        box-shadow: $shadow-l;
+        background-color: white;
+        
+        .card-header {
+            margin-bottom: 0.5rem;
+            align-items: baseline;
+            @include display-flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: transparent;
+            border-bottom: 1px solid $border-light-color;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 0.5rem 1rem;
+            min-height: 48px;
+            .entry-title {
+                font-size: 1.75rem;
+                font-family: $Lato;
+                font-weight: 600;
+                margin-bottom: 0;
+                color: lighten($dark-font, 30%);
+                padding-top: 0.8rem;
+                // text-shadow: 0px 2px 6px rgba(43, 40, 41, 0.15);
+            }
+            a{
+                text-decoration: none;
+                color: $pink-color;
+                span {
+                    @include display-flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    min-width: 10px;
+                    padding: 12px 4px;
+                    transition: opacity 300ms;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .card-body {
+            position: relative;
+            padding: 0.5rem 0.4rem 2rem;
+            .rupee {
+                text-align: center;
+                color: $pink-color;
+                margin-top: 5%;
+                font-weight: 800;
+                font-size: 3rem;
+            }
+            .price-info {
+                text-align: center;
+                margin: 1.75rem auto;
+                p {
+                    margin-bottom: 0.3rem;
+                    font-size: 1.4rem;
+                    line-height: 22px;
+                    &.tbold {
+                        font-weight: 600;
+                    }
+                }
+            }
+            .btn-confirm {
+                display: block;
+                width: 60%;
+                text-align: center;
+                margin: 0 auto;
+                border-radius: $border6;
+                padding: 0.6rem 1rem;
+                font-size: 1.6rem;
+                background-color: #5EBB3F;
+                color: white;
+                @include transition($all);
+                &:hover {
+                    background-color: darken($color: #5EBB3F, $amount: 15%);
+                }
+            }
+        }
+
+        .date_time {
+            padding: 1.5rem;
+            line-height: 3.3rem;
+            .edit {
+                i {
+                    font-size: 2rem;
+                    color: $pink-color;
+                }
+            }
+            i{
+                color: $dark-font;
+                font-size: 2rem;
+            }
+            .adult,
+            .datebetween {
+                color: $dark-font;
+                margin-left: 3%;
+            }
+
+            a {
+                color: $pink-color;
+            }
+        }
+
+        .travel-route {
+            position: static;
+            &__item {
+                -webkit-transition: all .4s ease 0s;
+                transition: all .4s ease 0s;
+                @include display-flex;
+                justify-content: space-between;
+                min-height: 50px;
+                &--icon {
+                    min-height: 50px;
+                    min-width: 32px;
+                    @include display-flex;
+                    -webkit-flex-flow: column;
+                    flex-flow: column;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    -webkit-justify-content: flex-start;
+                    justify-content: flex-start;
+                    padding: 0.2rem 0;
+                    position: relative;
+                    text-shadow: 0 0 2px rgba(0,0,0,.2);
+                    i {
+                        font-size: 2.2rem;
+                        color: $pink-color;
+                        margin-top: 10px;
+                        font-size: 1.6rem;
+                    }
+                    span {
+                        color: $pink-color;
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+                }
+                &--midicon {
+                    @include display-flex;
+                    -webkit-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    -webkit-justify-content: flex-start;
+                    justify-content: flex-start;
+                    min-width: 40px;
+                    width: 40px;
+                    margin-top: 0.5rem;
+                    i {
+                        background-color: #393939;
+                        color: #fff;
+                        text-shadow: 0 0 2px rgba(0,0,0,.2);
+                        @include display-flex;
+                        -webkit-flex-flow: column;
+                        flex-flow: column;
+                        -webkit-align-items: center;
+                        align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        font-weight: bold;
+                        justify-self: center;
+                        align-self: center;
+                        margin: 3px 0;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 250px;
+                        min-height: 30px;
+                        font-size: 14px;
+                    }
+                    span {
+                        background-color: #393939;
+                        color: #fff;
+                        text-shadow: 0 0 2px rgba(0,0,0,.2);
+                        @include display-flex;
+                        -webkit-flex-flow: column;
+                        flex-flow: column;
+                        -webkit-align-items: center;
+                        align-items: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        font-weight: bold;
+                        justify-self: center;
+                        align-self: center;
+                        margin: 3px 0;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 250px;
+                        min-height: 30px;
+                        font-size: 14px;
+                    }
+                    &.icon-bgcolor {
+                        i {
+                            background-color: $pink-color;
+                        }
+                    }
+                }
+                &--date {
+                    min-height: 50px;
+                    min-width: 32px;
+                    @include display-flex;
+                    -webkit-flex-flow: column;
+                    flex-flow: column;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    -webkit-justify-content: flex-start;
+                    justify-content: flex-start;
+                    padding: 2px 0;
+                    position: relative;
+                    text-shadow: 0 0 2px rgba(0,0,0,.2);
+                    color: $pink-color;
+                    &__small {
+                        font-size: 13px;
+                        margin-top: 2px;
+                        line-height: 8px;
+                        margin-bottom: 7px;
+                    }
+                }
+            }
+            .destination {
+                border-radius: $border8;
+                margin-bottom: 0.6rem;
+                &--odd {
+                    background-color: lighten($heading-color, 50%);
+                    .travel-route{
+                        &__item {
+                            &--date {
+                                color: $heading-color;
+                            }
+                            &--icon {
+                                span {
+                                    color: $heading-color;
+                                }
+                                i {
+                                    color: $heading-color;
+                                }
+                            }
+                            &--midicon {
+                                span {
+                                    background-color: $heading-color;
+                                }
+                                i {
+                                    background-color: $heading-color;
+                                }
+                            }
+                        }
+                    }
+                    .travel-origin--name__destination {
+                        span {
+                            color: $heading-color;
+                        }
+                    }
+                }
+                &--even {
+                    background-color: lighten($pink-color, 50%);
+                    .travel-route{
+                        &__item {
+                            &--date {
+                                color: $pink-color;
+                            }
+                            &--icon {
+                                span {
+                                    color: $pink-color;
+                                }
+                                i {
+                                    color: $pink-color;
+                                }
+                            }
+                            &--midicon {
+                                span {
+                                    background-color: $pink-color;
+                                }
+                                i {
+                                    background-color: $pink-color;
+                                }
+                            }
+                        }
+                    }
+                    .travel-origin--name__destination {
+                        span {
+                            color: $pink-color;
+                        }
+                    }
+                }
+                &--name {
+                    font-size: 1.6rem !important;
+                }
+            }
+            // Origin
+            .travel-origin {
+                &--icon {
+                    min-height: 50px;
+                    min-width: 32px;
+                    @include display-flex;
+                    -webkit-flex-flow: column;
+                    flex-flow: column;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    padding: 0.25rem 0;
+                    position: relative;
+                    text-shadow: 0 0 2px rgba(0,0,0,.2);
+                    i {
+                        font-size: 2.2rem;
+                        color: $pink-color;
+                        margin-top: 0.4rem;
+                    }
+                }
+                &--name {
+                    @include display-flex;
+                    flex-flow: column wrap;
+                    align-content: flex-start;
+                    justify-content: center;
+                    width: 100%;
+                    padding-left: 10px;
+                    span {
+                        @include display-flex;
+                        -webkit-flex-flow: row nowrap;
+                        flex-flow: row nowrap;
+                        -webkit-align-items: center;
+                        align-items: center;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                        font-weight: bold;
+                        font-size: 14px;
+                        margin: 0;
+                        width: 100%;
+                        line-height: 20px;
+                        color: $pink-color;
+                    }
+                    &__destination {
+                        span {
+                            font-size: 1.75rem;
+                            font-weight: 800;
+                        }
+                    }
+                }
+            }
+
+            // First Flight
+            .travel-flight {
+                padding-bottom: 0.75rem;
+                &--content {
+                    padding-left: 10px;
+                    -webkit-transition: all .2s ease 0s;
+                    transition: all .2s ease 0s;
+                    padding-right: 5px;
+                    position: relative;
+                    @include display-flex;
+                    flex-flow: column wrap;
+                    align-content: flex-start;
+                    justify-content: center;
+                    width: 100%;
+                    
+                    &__details {
+                        padding: 2px 0;
+                        min-width: 100%;
+                        display: block;
+                        width: 100%;
+                        color: $dark-font;
+                        h6 {
+                            color: $dark-font;
+                            font-weight: 700;
+                            margin: 0;
+                            font-family: $Lato;
+                            padding-right: 0px;
+                            min-height: 16px;
+                            font-size: 14px;
+                        }
+                        &--flight {
+                            min-height: 16px;
+                            font-size: 14px;
+                            line-height: 20px;
+                            font-weight: 600;
+                        }
+                        &--time {
+                            font-size: 13px;
+                            line-height: 20px;
+                            font-weight: 600;
+                            span {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    &:hover {
+                        background-color: #e8e8e8;
+                        &::after {
+                            content: 'x';
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            background-color: #6d6d6d;
+                            color: white;
+                            font-size: 17px;
+                            width: 16px;
+                            height: 16px;
+                            text-align: center;
+                            line-height: 14px;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+
+            // Hotel
+            .travel-hotel {
+                margin-bottom: 0.75rem;
+                &--content {
+                    padding-left: 10px;
+                    -webkit-transition: all .2s ease 0s;
+                    transition: all .2s ease 0s;
+                    padding-right: 5px;
+                    position: relative;
+                    @include display-flex;
+                    flex-flow: column wrap;
+                    align-content: flex-start;
+                    justify-content: center;
+                    width: 100%;
+                    &__details {
+                        padding: 2px 0;
+                        min-width: 100%;
+                        display: block;
+                        width: 100%;
+                        color: $dark-font;
+                        h6 {
+                            color: $dark-font;
+                            font-weight: 700;
+                            margin: 0;
+                            font-family: $Lato;
+                            padding-right: 0px;
+                            min-height: 16px;
+                            font-size: 14px;
+                        }
+                        &--ststus {
+                            min-height: 16px;
+                            font-size: 12px;
+                            line-height: 20px;
+                            font-weight: 600;
+                            .rating {
+                                color: #5EBB3F;
+                            }
+                        }
+                        &--available {
+                            font-size: 13px;
+                            line-height: 20px;
+                            font-weight: 600;
+                            span {
+                                display: inline-block;
+                                .available-icon {
+                                    @include display-flex;
+                                    -webkit-align-items: center;
+                                    align-items: center;
+                                    -webkit-justify-content: center;
+                                    justify-content: center;
+                                    display: -webkit-flex;
+                                    display: inline-flex;
+                                    width: 16px;
+                                    height: 16px;
+                                    border-radius: 160px;
+                                    font-size: 9px;
+                                    margin-right: 3px;
+                                    font-weight: bold;
+                                    color: #707070;
+                                    background-color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                    &:hover {
+                        background-color: #e8e8e8;
+                        &::after {
+                            content: 'x';
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            background-color: #6d6d6d;
+                            color: white;
+                            font-size: 17px;
+                            width: 16px;
+                            height: 16px;
+                            text-align: center;
+                            line-height: 14px;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+
+            // Summary
+            &__summary {
+                @include display-flex;
+                min-height: 36px;
+                margin-top: 0.75rem;
+                margin-left: 1.6rem;
+                padding-top: 1rem;
+                .sub_icon {
+                    color: $dark-font;
+                    margin-right: 2rem;
+                    font-size: 2.2rem;
+                }
+                .f_summery {
+                    font-size: 1.75rem;
+                    color: $dark-font;
+                }
+            }
+        }
+
+        &.timeline {
+            background-color: transparent;
+            box-shadow: none;
+            border: none;
+            .travel-route {
+                &__item {
+                    -webkit-transition: all .4s ease 0s;
+                    transition: all .4s ease 0s;
+                    @include display-flex;
+                    justify-content: space-between;
+                    min-height: 60px;
+                    padding-bottom: 0px;
+
+                    &--icon {
+                        min-height: 50px;
+                        min-width: 50px;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        padding: 0.2rem 0;
+                        background-color: #ececec;
+                        margin: 0.25rem 0 0.25rem 0;
+                        i {
+                            font-size: 3rem;
+                            color: $pink-color;
+                            margin-top: 0px;
+                        }
+                        span {
+                            color: $pink-color;
+                            font-size: 14px;
+                            line-height: 18px;
+                        }
+                    }
+                    
+                    &--midicon {
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        min-width: 50px;
+                        width: 50px;
+                        margin-top: 0;
+                        i {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 250px;
+                            min-height: 40px;
+                            font-size: 18px;
+                        }
+                        span {
+                            width: 40px;
+                            height: 40px;
+                            min-height: 40px;
+                            font-size: 20px;
+                        }
+                        
+                        &.icon-bgcolor {
+                            i {
+                                background-color: $pink-color;
+                            }
+                        }
+                    }
+                    &--name {
+                        @include display-flex;
+                        flex-flow: column wrap;
+                        align-content: flex-start;
+                        justify-content: center;
+                        width: 100%;
+                        padding-left: 10px;
+                        span {
+                            @include display-flex;
+                            -webkit-flex-flow: row nowrap;
+                            flex-flow: row nowrap;
+                            -webkit-align-items: center;
+                            align-items: center;
+                            -webkit-justify-content: flex-start;
+                            justify-content: flex-start;
+                            font-weight: bold;
+                            font-size: 1.75rem;
+                            margin: 0;
+                            width: 100%;
+                            line-height: 20px;
+                            color: $dark-font
+                        }
+                    }
+                    &--date {
+                        min-height: 50px;
+                        min-width: 50px;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        background-color: #ececec;
+                        margin: 0.25rem 0 0.25rem 0;
+                        &__separator {
+                            margin: 0.5rem auto;
+                            font-size: 3rem;
+                        }
+                    }
+                }
+                .travel-flight {
+                    &--content {
+                        &:hover {
+                            background-color: transparent;
+                            &::after {
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+                .travel-hotel {
+                    margin-bottom: 0px;
+                    &--content {
+                        &:hover {
+                            background-color: transparent;
+                            &::after {
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+                .flight-list-box {
+                    width: 100%;
+                    padding: 0.75rem 1rem;
+                    margin: 1rem auto;
+
+                }
+                .travel-hotelwf {
+                    width: 100%;
+                    padding: 0.75rem 1rem;
+                }
+            }
+            .timeline__destination {
+                &--addCar {
+                    justify-content: space-between;
+                    margin: 1.75rem auto;
+                    width: 100%;
+                    border-radius: $border8;
+                    border: 1px solid $border-light-color;
+                    a {
+                        min-width: 100%;
+                        border-radius: $border8;
+                        box-shadow: $shadow-l;
+                        display: block;
+                        min-height: 60px;
+                        padding: 1rem;
+                        text-align: center;
+                        color: $pink-color;
+                        margin-bottom: 0;
+                        font-size: 1.8rem;
+                        line-height: 36px;
+                        background-color: #e6d7dd;
+                        @include transition ($all);
+                        &:hover {
+                            color: white;
+                            background-color: $pink-color;
+                        }
+                    }
+                }
+
+                .travelDestination {
+                    position: relative;
+                    overflow: hidden;
+                    color: #fff;
+                    min-height: 260px;
+                    width: 100%;
+                    border-radius: $border10;
+                    margin: 1rem auto;
+                    &__img {
+                        content: " ";
+                        z-index: 0;
+                        display: block;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        position: absolute;
+                        height: 100%;
+                        background-color: $pink-color;
+                        color: #fff;
+                        &::after {
+                            background-color: rgba(57,57,57,.4);
+                            -webkit-transition: all .2s ease 0s;
+                            transition: all .2s ease 0s;
+                            content: " ";
+                            z-index: 0;
+                            display: block;
+                            top: 0;
+                            right: 0;
+                            bottom: 0;
+                            left: 0;
+                            position: absolute;
+                        }
+                    }
+                    &__info {
+                        @include display-flex;
+                        -webkit-flex-flow: column nowrap;
+                        flex-flow: column nowrap;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        min-height: 240px;
+                        position: relative;
+                        justify-content: space-between;
+                        height: 100%;
+                        padding: 20px;
+                        padding-left: 40px;
+                        h4 {
+                            font-size: 2.5rem;
+                        }
+                        a {
+                            width: 20%;
+                            color: $pink-color;
+                            background-color: rgba(255, 255, 255, 0.75);
+                            padding: 0.5rem 1rem;
+                            text-align: center;
+                            border-radius: 8px;
+                            position: absolute;
+                            bottom: 1.9rem;
+                            right: 2rem;
+                            @include transition($all);
+                            i {
+                                font-size: 2rem;
+                            }
+                            &:hover {
+                                background-color: $pink-color;
+                                color: white;
+                            }
+                        }
+                        span {
+                            width: fit-content;
+                            color: white;
+                            padding: 0.75rem 1rem;
+                            text-align: left;
+                            border-radius: 8px;
+                            background-color: rgba(0,0,0,.4);
+                            i {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    // Summary Insurance
+    .travelroute-insurances  {
+        @include display-flex;
+        min-width: 100%;
+        background-color: #fff;
+        min-height: 80px;
+        justify-content: space-between;
+        margin-bottom: 0.15rem;
+        border-radius: $border8;
+        box-shadow: $shadow-l;
+        border: 1px solid $border-light-color;
+        .travelroute {
+            @include display-flex;
+        }
+        &__icon {
+            background-color: $pink-color;
+            color: #fff;
+            border-radius: 100px ;
+            max-width: 50px;
+            min-width: 50px;
+            height: 50px;
+            width: 50px;
+            margin-top: 1.4rem;
+            margin-left: 1.75rem;
+            @include display-flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 7px 0;
+            position: relative;
+            text-shadow: 0 0 2px rgba(0,0,0,.2);
+            i {
+                font-size: 2.5rem;
+            }
+        }
+        &__heading {
+            @include display-flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+            -webkit-align-items: baseline;
+            align-items: baseline;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 7px 0;
+            position: relative;
+            text-shadow: 0 0 2px rgba(0,0,0,.2);
+            h4 {
+                color: $dark-font;
+                margin-bottom: 0;
+                padding-left: 1.5rem;
+            }
+            p {
+                margin-bottom: 0;
+                padding-left: 1.5rem;
+            }
+        }
+        &__btn {
+            @include display-flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+            -webkit-align-items: flex-end;
+            align-items: flex-end;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 2px 0;
+            position: relative;
+            margin-right: 2rem;
+            .more-btn {
+                font-weight: bold;
+                color: white;
+                cursor: pointer;
+                background-color: $pink-color;
+                border-radius: 30px;
+                padding: 0.8rem 1.75rem;
+                @include transition($all);
+                box-shadow: $shadow-l;
+        
+                &:hover, &:focus {
+                    background-color: lighten($pink-color, 15%);
+                }
+            }
+        }
+    }
+
+    // Search Result Mid Heading and Info
+    &__insuSelected {
+        @include display-flex;
+        min-width: 100%;
+        background-color: #fff;
+        min-height: 60px;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        border-radius: $border8;
+        box-shadow: $shadow-l;
+        border: 1px solid $border-light-color;
+        min-height: 80px;
+        .travelroute {
+            @include display-flex;
+        }
+        &__date {
+            background-color: #1b3452;
+            color: #fff;
+            border-radius: $border8 0 0 $border8 ;
+            max-width: 50px;
+            min-width: 50px;
+            width: 50px;
+            @include display-flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 7px 0;
+            position: relative;
+            text-shadow: 0 0 2px rgba(0,0,0,.2);
+            b {
+                font-size: 16px;
+            }
+            span {
+                font-size: 13px;
+                margin-top: 5px;
+                line-height: 0;
+                margin-bottom: 10px
+            }
+        }
+        &__route {
+            @include display-flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 7px 0;
+            position: relative;
+            text-shadow: 0 0 2px rgba(0,0,0,.2);
+            h4 {
+                color: $dark-font;
+                margin-bottom: 0;
+                padding-left: 1.5rem;
+            }
+        }
+        &__switcher {
+            @include display-flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+            -webkit-align-items: flex-end;
+            align-items: flex-end;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 2px 0;
+            margin-top: 0.5rem;
+            position: relative;
+            margin-right: 2.8rem;
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 45px;
+                height: 25px;
+                left: 17px;
+                .slider {
+                    position: absolute;
+                    cursor: pointer;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: #ccc;
+                    -webkit-transition: .4s;
+                    transition: .4s;
+                
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        height: 17px;
+                        width: 15px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+                }
+                input {
+                    &:checked + .slider {
+                        background-color: $pink-color;
+                    }
+                    &:focus + .slider {
+                        box-shadow: 0 2px 4px -2px $heading-color;
+                    }
+                    &:checked + .slider:before {
+                        -webkit-transform: translateX(22px);
+                        -ms-transform: translateX(22px);
+                        transform: translateX(22px);
+                    }
+                }
+                /* Rounded sliders */
+                .slider.round {
+                    border-radius: 34px;
+                    &:before {
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        &__btn {
+            @include display-flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+            -webkit-align-items: flex-end;
+            align-items: flex-end;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 2px 0;
+            position: relative;
+            margin-right: 2rem;
+            .more-btn {
+                font-weight: bold;
+                color: white;
+                cursor: pointer;
+                background-color: $pink-color;
+                border-radius: 30px;
+                padding: 0.8rem 1.75rem;
+                @include transition($all);
+                box-shadow: $shadow-l;
+        
+                &:hover, &:focus {
+                    background-color: lighten($pink-color, 15%);
+                }
+            }
+        }
+    }
+
+    &__insurances {
+        &.card {
+            border-radius: 0 0 $border8 $border8;
+        }
+        .table {
+            th {
+                width: 40px;
+            }
+            tr {
+                .download {
+                    font-size: 12px;
+                    display: block;
+                    i {
+                        padding-right: 0.5rem;
+                    }
+                }
+            }
+            .insurance__icon {
+                position: absolute;
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+                margin-top: 0.75rem;
+                margin-left: 1rem;
+                // background-color: $pink-color;
+                color: $dark-font;
+                font-size: 2.5rem;
+                border-radius: 50px;
+            }
+            .insurances__switch {
+                @include display-flex;
+                -webkit-flex-flow: column;
+                flex-flow: column;
+                -webkit-align-items: baseline;
+                align-items: baseline;
+                -webkit-justify-content: center;
+                justify-content: center;
+                padding: 2px 0;
+                margin-top: 0.5rem;
+                position: relative;
+                margin-right: 2.8rem;
+                .switch {
+                    position: relative;
+                    display: inline-block;
+                    width: 45px;
+                    height: 25px;
+                    left: 17px;
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #ccc;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                      
+                        &:before {
+                            position: absolute;
+                            content: "";
+                            height: 17px;
+                            width: 15px;
+                            left: 4px;
+                            bottom: 4px;
+                            background-color: white;
+                            -webkit-transition: .4s;
+                            transition: .4s;
+                        }
+                    }
+                    input {
+                        &:checked + .slider {
+                            background-color: $pink-color;
+                        }
+                        &:focus + .slider {
+                            box-shadow: 0 2px 4px -2px $heading-color;
+                        }
+                        &:checked + .slider:before {
+                            -webkit-transform: translateX(22px);
+                            -ms-transform: translateX(22px);
+                            transform: translateX(22px);
+                        }
+                    }
+                    /* Rounded sliders */
+                    .slider.round {
+                        border-radius: 34px;
+                        &:before {
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__footer {
+        position: relative;
+        margin-top: 1.25rem;
+        &--bg {
+            background-position: center;
+            margin-bottom: 1.5rem;
+        }
+        &--info {
+            width: 90%;
+            position: absolute;
+            padding: 2rem;
+            top: 0;
+            background-color: white;
+            margin: 5%;
+            border-radius: $border10;
+            &__heading {
+                text-align: center;
+                color: $pink-color;
+                font-size: 2.2rem;
+                margin-bottom: 0.25rem;
+            }
+            &__vpoint {
+                min-height: 50px;
+                @include display-flex;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                -ms-flex-direction: row;
+                flex-direction: row;
+                .vpoint {
+                    @include display-flex;
+                    i {
+                        font-size: 2.4rem;
+                    }
+                    .sepoint {
+                        position: relative;
+                        left: 16px;
+                        &--end {
+                            left: 30px;
+                            position: relative;
+                        }
+                    }
+                    .midpoint {
+                        position: relative;
+                        left: 22px;
+                    }
+                    .m_route {
+                        color: #707070;
+                        position: relative;
+                        top: 36px;
+                        font-size: 1.4rem;
+                        left: -12%;
+                        font-weight: 700;
+                    }
+                }
+                
+                .b_line {
+                    border: 1px solid $pink-color;
+                    width: 90%;
+                    left: 5%;
+                    position: absolute;
+                    opacity: 1;
+                }
+            }
+            &__data {
+                position: relative;
+                &__summary {
+                    @include display-flex;
+                    min-height: 28px;
+                    margin-top: 0.25rem;
+                    margin-left: 1.6rem;
+                    padding-top: 0;
+                    .sub_icon {
+                        color: $dark-font;
+                        margin-right: 2rem;
+                        font-size: 2rem;
+                    }
+                    .f_summery {
+                        font-size: 1.5rem;
+                        color: $dark-font;
+                    }
+                }
+            }
+            &__li {
+                position: relative;
+                li {
+                    @include display-flex;
+                    min-height: 28px;
+                    margin-top: 0.25rem;
+                    margin-left: 1.6rem;
+                    padding-top: 0;
+                    color: $dark-font;
+                    strong {
+                        padding-left: 0.5rem;
+                    }
+                }
+            }
+        }
+        &--price {
+            position: relative;
+            &__btn {
+                position: relative;
+                .rupee {
+                    text-align: center;
+                    color: $pink-color;
+                    margin-top: 1rem;
+                    font-weight: 800;
+                    font-size: 3rem;
+                }
+                .price-info {
+                    text-align: center;
+                    margin: 1rem auto 0;
+                    p {
+                        margin-bottom: 0.3rem;
+                        font-size: 1.4rem;
+                        line-height: 22px;
+                        &.tbold {
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .payment {
+                    background-color: $pink-color;
+                    color: white;
+                    text-align: center;
+                    display: block;
+                    padding: 5rem;
+                    border-radius: $border8;
+                    margin-bottom: 1.75rem;
+                    box-shadow: $shadow-l;
+                    &:hover {
+                        background-color: lighten($pink-color, 10%);
+                    }
+                }
+            }
+            .text_footer {
+                font-size: 3rem;
+                font-weight: 600;
+            }
+            .pink-btn {
+                color: $pink-color;
+                @include transition($all);
+                &:hover {
+                    color: darken($pink-color, 20%);
+                    font-weight: 600;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+// Search Result Mid Heading and Info
+.travelroute-heading {
+    @include display-flex;
+    min-width: 100%;
+    background-color: #fff;
+    min-height: 60px;
+    justify-content: space-between;
+    margin-bottom: 1.75rem;
+    border-radius: $border8;
+    box-shadow: $shadow-l;
+    border: 1px solid $border-light-color;
+    &.odd {
+        background-color: lighten($heading-color, 50%);
+    }
+    &.even {
+        background-color: lighten($pink-color, 50%);
+    }
+    .travelroute {
+        @include display-flex;
+    }
+    &__date {
+        background-color: #1b3452;
+        color: #fff;
+        border-radius: $border8 0 0 $border8 ;
+        max-width: 50px;
+        min-width: 50px;
+        width: 50px;
+        @include display-flex;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        padding: 7px 0;
+        position: relative;
+        text-shadow: 0 0 2px rgba(0,0,0,.2);
+        b {
+            font-size: 16px;
+        }
+        span {
+            font-size: 13px;
+            margin-top: 5px;
+            line-height: 0;
+            margin-bottom: 10px
+        }
+    }
+    &__route {
+        @include display-flex;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        padding: 7px 0;
+        position: relative;
+        text-shadow: 0 0 2px rgba(0,0,0,.2);
+        h4 {
+            color: $dark-font;
+            margin-bottom: 0;
+            padding-left: 1.5rem;
+        }
+    }
+    &__switcher {
+        @include display-flex;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+        -webkit-justify-content: center;
+        justify-content: center;
+        padding: 2px 0;
+        margin-top: 0.5rem;
+        position: relative;
+        margin-right: 2.8rem;
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 45px;
+            height: 23px;
+            left: 17px;
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: -1px;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+              
+                &:before {
+                    position: absolute;
+                    content: "";
+                    height: 15px;
+                    width: 15px;
+                    left: 5px;
+                    bottom: 4px;
+                    background-color: white;
+                    -webkit-transition: .4s;
+                    transition: .4s;
+                }
+            }
+            input {
+                &:checked + .slider {
+                    background-color: $pink-color;
+                }
+                &:focus + .slider {
+                    box-shadow: 0 2px 4px -2px $heading-color;
+                }
+                &:checked + .slider:before {
+                    -webkit-transform: translateX(22px);
+                    -ms-transform: translateX(22px);
+                    transform: translateX(22px);
+                }
+            }
+            /* Rounded sliders */
+            .slider.round {
+                border-radius: 34px;
+                &:before {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    &__btn {
+        @include display-flex;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+        -webkit-justify-content: center;
+        justify-content: center;
+        padding: 2px 0;
+        position: relative;
+        margin-right: 2rem;
+        .more-btn {
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            background-color: $pink-color;
+            border-radius: 30px;
+            padding: 0.8rem 1.75rem;
+            @include transition($all);
+            box-shadow: $shadow-l;
+    
+            &:hover, &:focus {
+                background-color: lighten($pink-color, 15%);
+            }
+        }
+    }
+}
+
+

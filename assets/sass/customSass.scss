@@ -1,0 +1,108 @@
+// Base
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
+@import "base/_general.scss";
+@import "base/_typography.scss";
+// Layout
+@import "layout/custApp";
+@import "layout/goexploreindia";
+@import "layout/smartDev";
+@import "layout/state";
+@import "layout/MultiCarousel";
+@import "layout/searchResult";
+@import "layout/wedding";
+@import "layout/medtour";
+@import "layout/researchStudies";
+@import "layout/education";
+@import "layout/handicraft";
+@import "layout/smartgaon";
+
+// Preloader
+.rt-preloder {
+  .preloder-box {
+    width: 280px;
+    height: 280px;
+  }
+}
+// Login
+.rt-modal-headr {
+  img {
+    width: 200px;
+    margin: 2rem auto;
+  }
+}
+// Menu Shadow
+.white-menu {
+  .main-menu ul {
+    line-height: 20px;
+    // @include display-flex;
+    // -webkit-align-items: center;
+    // align-items: center;
+    li {
+      a {
+        &:hover {
+          color: #ba195a;
+          background: white;
+          border-radius: 4px;
+          box-shadow: $shadow-l;
+        }
+      }
+      
+    }
+  }
+}
+.main-menu > ul > li.menu-item-has-children > ul.sub-menu > li:hover > a, .main-menu ul ul > li:hover > a {
+  background-color: $pink-color;
+}
+
+.rt-sticky-active {
+  -webkit-box-shadow: 0 8px 20px -10px rgba(136, 136, 136, 0.3);
+  box-shadow: 0 8px 20px -10px rgba(136, 136, 136, 0.3);
+}
+// Blank Page
+.cta-box-2 {
+  background-attachment: fixed;
+  background-size: cover;
+  &::before {
+    content: '';
+    width: 97.5%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    border-radius: 30px;
+  }
+}
+
+.rt-breadcump {
+  .rt-page-bg{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px ​-346px;
+    &::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.4;
+      position: absolute;
+    }
+  }
+}
+
+.rt-input-group .form-control.has-icon {
+  padding-left: 38px;
+}
+
+.rt-input-group {
+  .single-input {
+    .input-iconbadge {
+      position: absolute;
+      top: 50%;
+      left: 14px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+}

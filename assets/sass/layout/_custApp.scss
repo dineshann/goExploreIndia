@@ -1,0 +1,1187 @@
+.custombtn {
+    font-size: 12px !important;
+    padding: 7px 10px !important;
+    margin-top: 47px;
+}
+
+.home-search-box {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+
+.t-dates {
+    height: 53px;
+    border: 1px solid rgba(79, 79, 79, 0.1);
+    border-radius: 999px;
+    background: none;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(55, 94, 246, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(55, 94, 246, 0.2);
+}
+
+.t-check-in,
+.t-check-out {
+    border: none;
+}
+
+.traveldropdown {
+    position: absolute !important;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    width: 382px !important;
+    padding: 0;
+    top: 40px;
+    left: 0px;
+    background: #FFF;
+    z-index: 1;
+    display: none;
+    border-radius: 10px;
+
+    li {
+        width: 100% !important;
+        list-style: none;
+    }
+}
+
+.ttltraveler {
+    padding: 6px 11px;
+    width: 100%;
+    background: #FFF;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    width: 176px !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+}
+
+input[type="text"]:disabled {
+    background: #dddddd !important;
+    border: 1px solid #DDD !important;
+}
+
+.wrapper_index_three {
+    display: block;
+    height: 84vh;
+}
+
+.text_box_three {
+    margin-top: 115px;
+    margin-bottom: 65px;
+}
+
+#tabtravel h3,
+#tabhotel h3,
+#tabtour h3 {
+    color: #FFF;
+    float: left;
+}
+
+.tripOpt {
+    color: #FFF;
+    float: right;
+    margin: 0;
+}
+
+.travelerBox,
+.classBox {
+    float: left;
+}
+
+.t-check-out.disabled {
+    background: #DDD !important;
+}
+
+.travelerBox {
+    width: 52%;
+    border-right: 1px solid #ddd;
+    margin-right: 15px;
+}
+
+.classBox {
+    padding: 3px 15px;
+    width: 44%;
+    text-align: left;
+}
+
+.classType~label {
+    font-size: 13px;
+}
+
+.classBox label {
+    padding-left: 0;
+}
+
+.classType~ {
+    ::before {
+        top: 3px !important;
+    }
+
+    ::after {
+        top: 6px !important;
+    }
+}
+
+.classBox button {
+    width: 70%;
+    margin-bottom: 6px;
+}
+
+.btn-search-travel {
+    line-height: 2.5;
+}
+
+.trvelerInfo,
+.hotelInfo {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 0px 7px;
+    border-bottom: 1px solid #ddd;
+}
+
+.triplistbox {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.trvelerInfo {
+    label {
+        font-size: 13px !important;
+    }
+
+    small {
+        color: #01b7f2;
+    }
+
+    .adults {
+        font-size: 16px;
+    }
+}
+
+.child,
+.infant,
+.hot_rooms {
+    font-size: 16px;
+}
+
+.trvelerInfo {
+
+    .add,
+    .minus,
+    .travelerDetails {
+        float: left;
+    }
+}
+
+.hotelInfo {
+
+    .add,
+    .minus,
+    .travelerDetails {
+        float: left;
+    }
+}
+
+.trvelerInfo {
+
+    .addp,
+    .minusp {
+        float: left;
+    }
+
+    .add,
+    .minus {
+        width: 10%;
+        margin-top: 10px;
+        cursor: pointer;
+        border: 1px solid #EEE;
+    }
+}
+
+.hotelInfo {
+
+    .add,
+    .minus {
+        width: 10%;
+        margin-top: 10px;
+        cursor: pointer;
+        border: 1px solid #EEE;
+    }
+}
+
+.trvelerInfo {
+
+    .addp,
+    .minusp {
+        width: 10%;
+        margin-top: 10px;
+        cursor: pointer;
+        border: 1px solid #EEE;
+    }
+
+    .add:hover,
+    .minus:hover {
+        background: #01b7f2;
+        color: #FFF;
+    }
+}
+
+.hotelInfo {
+
+    .add:hover,
+    .minus:hover {
+        background: #01b7f2;
+        color: #FFF;
+    }
+}
+
+.trvelerInfo {
+
+    .addp:hover,
+    .minusp:hover {
+        background: #01b7f2;
+        color: #FFF;
+    }
+
+    .travelerDetails {
+        width: 80%;
+        line-height: 20px;
+    }
+}
+
+.hotelInfo .travelerDetails {
+    width: 80%;
+    line-height: 20px;
+}
+
+.ttlshow {
+    font-size: 20px;
+    text-align: center;
+    color: #496cfe;
+}
+
+.departureLebel {
+    float: right;
+    margin-right: 70px;
+}
+
+.t-check-outhidden {
+    border: 1px solid #EEE;
+    height: 52px;
+    background: #EEE;
+    width: 49%;
+    margin-left: 142px;
+    padding: 15px 30px;
+    color: #AAA;
+    border-radius: 999px !important;
+}
+
+// .dateinput {
+//     width: 29% !important;
+//     max-width: 29% !important;
+//     -webkit-box-flex: 0 !important;
+//     -webkit-flex: 0 0 29% !important;
+//     -ms-flex: 0 0 29% !important;
+//     flex: 0 0 29% !important;
+
+//     // label {
+//     //     margin-top: 10px;
+//     // }
+// }
+
+// .classPassenger {
+//     max-width: 19% !important;
+// }
+
+.t-check-in .t-date-info-title,
+.t-check-out .t-date-info-title {
+    top: 7px;
+}
+
+.rt-input-group .single-input .input-iconbadge {
+    &.img {
+        top: 69% !important;
+    }
+}
+
+.mcity {
+    display: none;
+    width: 100%;
+    float: left;
+
+    // .search-col-padding {
+    //     padding-top: 0;
+    // }
+}
+
+.addmoreCity {
+    margin-top: 25px;
+}
+
+.traveldropdown {
+    z-index: 2;
+}
+
+.mcityInput {
+    float: left;
+}
+
+.mcdateinputlabel {
+    margin-top: 0 !important;
+}
+
+.single-rt-banner {
+    z-index: 2;
+}
+
+.error {
+    color: $pink-color !important;
+    font-size: 11px !important;
+}
+
+.req_error {
+    border: 1px solid $pink-color !important;
+}
+
+.returndate {
+    display: none;
+}
+
+.cfprice {
+    display: block;
+    font-size: 9px;
+    text-align: right;
+    line-height: 13px;
+}
+
+.daterangepicker {
+    .calendar-table {
+
+        th,
+        td {
+            width: 42px;
+            height: 37px;
+        }
+    }
+
+    .drp-calendar {
+        max-width: 310px;
+    }
+}
+
+.daterange {
+    width: 100% !important;
+}
+
+// .dpicker {
+//     width: 50%;
+//     float: left;
+//     margin-top: -10px;
+// }
+
+.frules {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.rt-widget {
+    padding: 15px !important;
+}
+
+.fromto {
+    text-align: center;
+    color: #4933f1;
+}
+
+#depPass {
+    margin: 14px 0 0 0;
+}
+
+.passc {
+    float: right;
+}
+
+.seatleft {
+    display: block;
+    font-size: 11px;
+}
+
+.hometitle {
+    font-size: 40px !important;
+    line-height: 50px !important;
+}
+
+.rt-banner-height {
+    height: 90vh;
+}
+
+.single-rt-banner .rt-banner-content p {
+    margin: 0 0 10px;
+}
+
+/******************Hotel css**************/
+
+.htravelerinfo {
+    border-bottom: none !important;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.htravelerdropbox {
+    width: 283px !important;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.hrooms {
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid #EEE;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0.5rem;
+}
+
+.removeRoom {
+    font-size: 1.8rem;
+    margin-right: 4px;
+    cursor: pointer;
+    color: $pink-color;
+    display: none;
+}
+
+.roomshortinfo {
+    padding: 5px 10px;
+    display: none;
+}
+
+.htravelerBox {
+    width: 100%;
+    border-right: none;
+}
+
+.small,
+small {
+    font-size: 90%;
+}
+
+#addnewroom {
+    float: right;
+    padding: 2px 7px 0 7px;
+    height: 29px;
+    font-size: 13px;
+    width: auto;
+}
+
+.rt-banner-searchbox {
+    position: relative !important;
+    z-index: 2;
+}
+
+.custSelect {
+    font-size: 16px;
+    margin-top: 6px;
+    position: relative;
+    height: 53px;
+    padding-left: 15px;
+    color: rgba(79, 79, 79, 0.8);
+    border: 1px solid rgba(79, 79, 79, 0.1);
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(55, 94, 246, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(55, 94, 246, 0.2);
+    
+    &:hover {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+/*************************Hotel*******************************/
+
+.t-check-in .t-date-info-title,
+.t-check-out .t-date-info-title,
+.t-dates,
+.t-day,
+.rt-banner-searchbox {
+    color: #333;
+}
+
+/*********************************************************/
+
+.detailBox {
+    margin-top: 40px;
+
+    h4 {
+        font-weight: 600;
+        color: #064f8e;
+        font-size: 18px;
+    }
+
+    label {
+        display: block;
+
+        small {
+            color: #736f6f;
+        }
+    }
+
+    .timeinfo h4 {
+
+        span,
+        center {
+            display: inline;
+            font-size: 13px;
+        }
+
+        small {
+            font-size: 13px;
+        }
+    }
+}
+
+.firstInfo,
+.secondInfo,
+.thirdInof {
+    width: 31%;
+    display: inline-block !important;
+    text-align: left;
+}
+
+.secondInfo {
+    text-align: center;
+}
+
+.thirdInof {
+    text-align: right;
+}
+
+.detailTabs li {
+    margin-right: 20px;
+
+    a {
+        background: #EEE;
+
+        &:hover {
+            background: #5133F1;
+            color: #FFF;
+        }
+    }
+}
+
+.flightlist h5,
+.flight-list-box h5 {
+    color: #0A3152;
+    font-size: 13px;
+    margin: 5px 0px;
+    font-weight: normal;
+}
+
+.rt-input-group .col-rt-in-3 {
+    max-width: 20%;
+}
+
+.rinp {
+    max-width: 17% !important;
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: 0 0 17% !important;
+    -ms-flex: 0 0 17% !important;
+    flex: 0 0 17% !important;
+}
+
+.modifysearchbtn {
+    margin-top: 30px;
+    width: 14%;
+}
+
+.pricebooknowbtn {
+    margin-top: -50px;
+}
+
+.hsorttxt {
+    display: inline-block;
+    padding: 11px 19px;
+}
+
+.hfilter button {
+    width: 26% !important;
+    margin-right: 8px;
+}
+
+/*********************flight listig page css***************/
+
+.owl-carousel.owl-drag .owl-item {
+    cursor: pointer;
+}
+
+.t-check-outhidden {
+    margin-left: 159px;
+}
+
+.stoparea {
+    position: relative;
+}
+
+.stopcount {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    font-size: 12px;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    background: #EEE;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    background: transparent;
+
+    &:hover {
+        background: transparent;
+    }
+}
+
+.lowest-fare-slider {
+    .owl-theme .owl-nav [class*="owl-"] {
+        background: transparent;
+    }
+
+    i {
+        background: #F2676B !important;
+        padding: 2px;
+    }
+
+    .owl-carousel .owl-nav {
+        .owl-prev {
+            left: 0;
+        }
+
+        .owl-next {
+            right: 0;
+        }
+
+        .owl-prev,
+        .owl-next {
+            position: absolute;
+            top: 21%;
+        }
+    }
+}
+
+.t-check-in .t-date-info-title,
+.t-check-out .t-date-info-title,
+.t-dates,
+.t-day {
+    color: #333;
+}
+
+.t-disabled {
+    color: #AAA;
+}
+
+/*********************Round Ttrip listing************************/
+
+.stoparea {
+    position: relative;
+}
+
+.stopcount {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    font-size: 12px;
+}
+
+priceDesc {
+    float: left;
+    width: 33%;
+}
+
+.selPricebox {
+    background: #00adef;
+    float: left;
+    width: 100%;
+
+    label {
+        font-weight: 700;
+        line-height: 13px;
+    }
+
+    span {
+        line-height: 15px;
+    }
+}
+
+/********************************************************************/
+
+.priceDesc {
+    color: #FFF;
+    font-size: 11px;
+    width: 33%;
+    float: left;
+    padding: 8px 6px;
+    border-right: 3px solid #fff;
+
+    &:last-child {
+        border-right: none;
+    }
+}
+
+.time_place,
+.dur_detail,
+.tprice,
+.ttl_price {
+    float: left;
+    width: 18%;
+    text-align: center;
+}
+
+.tprice {
+    padding: 5px 0;
+}
+
+.dur_detail {
+    width: 30%;
+}
+
+.time_place span,
+.dur_detail span {
+    display: block;
+    font-size: 10px;
+}
+
+.ttl_price {
+    width: 25%;
+
+    label {
+        margin-bottom: 0;
+    }
+}
+
+.time_place label {
+    margin-bottom: 0;
+}
+
+.fimg {
+    width: 16%;
+    float: left;
+}
+
+.flight-list-footer span {
+    font-size: 12px !important;
+}
+
+.fixedPos {
+    position: fixed;
+    top: 92px;
+    z-index: 3;
+    width: 77%;
+    left: 319px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.t-check-in .t-date-info-title,
+.t-check-out .t-date-info-title,
+.t-dates,
+.t-day {
+    color: #333;
+}
+
+.flight-list-box .bottom-content {
+    margin-left: 35px;
+}
+
+.twoway {
+    margin-left: 0 !important;
+
+    .nav-link {
+        padding: .5rem 3px;
+    }
+
+    .detailTabs li {
+        margin-right: 6px;
+    }
+
+    .detailBox {
+        padding-right: 0;
+
+        h6 {
+            font-size: 11px;
+        }
+
+        p {
+            font-size: 11px;
+            line-height: 17px;
+        }
+    }
+
+    .flightlist h5,
+    .flight-list-box h5 {
+        font-size: 10px;
+    }
+}
+
+.deptCoentent {
+    background: #f9676b;
+    padding: 5px 30px;
+    text-align: center;
+    color: #FFF;
+}
+
+.modify-flight {
+    background: #f3f3f3;
+}
+
+/******************************************/
+/*******************************************/
+
+.bottombar {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+    left: 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(#496cfe), color-stop(29%, #4950f8), color-stop(55%, #4933f1), color-stop(83%, #7133f3), to(#9932f5));
+    background-image: -webkit-linear-gradient(left, #496cfe 0%, #4950f8 29%, #4933f1 55%, #7133f3 83%, #9932f5 100%);
+    background-image: linear-gradient(90deg, #496cfe 0%, #4950f8 29%, #4933f1 55%, #7133f3 83%, #9932f5 100%);
+
+    .fimg {
+        width: 12%;
+    }
+
+    .priceDesc,
+    .time_place span {
+        font-size: 11px !important;
+        width: 100%;
+    }
+}
+
+.dur_detail span {
+    font-size: 11px !important;
+    width: 100%;
+}
+
+.fttime {
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+}
+
+.bottombar {
+
+    .time_place,
+    .dur_detail,
+    .tprice,
+    .ttl_price {
+        width: 19% !important;
+    }
+
+    .tprice {
+        font-size: 20px;
+        font-weight: 600;
+        width: 29% !important;
+        text-align: right;
+        margin-top: 10px;
+    }
+}
+
+.border_right {
+    border-right: 1px solid #CCC;
+}
+
+.bottombar .fimg img {
+    height: 52px;
+    width: 52px;
+}
+
+.gttl {
+    font-size: 15px;
+}
+
+.gtprbox {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.spacer-bottom {
+    height: 50px !important;
+}
+
+.rt-widget {
+    margin-bottom: 5px;
+
+    &.widget_range-slider .rt-widget-title {
+        margin: 0 0 10px;
+    }
+
+    .price_slider_amount {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+.rtamtval {
+    float: right;
+}
+
+[data-toggle=buttons]> {
+    .btn input {
+
+        &[type=checkbox],
+        &[type=radio] {
+            position: absolute;
+            clip: rect(0, 0, 0, 0);
+            pointer-events: none;
+        }
+    }
+
+    .btn-group>.btn input {
+
+        &[type=checkbox],
+        &[type=radio] {
+            position: absolute;
+            clip: rect(0, 0, 0, 0);
+            pointer-events: none;
+        }
+    }
+}
+
+.fstops label {
+    font-size: 13px;
+    border-left: 1px solid #FFF;
+    background: -webkit-linear-gradient(55deg, #9932f5 0%, #4933f1 53%, #4950f8 70%, #496cfe 100%);
+    background: linear-gradient(35deg, #9932f5 0%, #4933f1 53%, #4950f8 70%, #496cfe 100%);
+}
+
+.rt-widget .rt-widget-title {
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+.listcontainer {
+    width: 100%;
+    float: left;
+}
+
+/* .hide_airline{
+      display:none;
+  } */
+
+.fltimings li,
+.faTimes li {
+    float: left;
+    width: 50%;
+}
+
+.fltimings,
+.faTimes {
+    min-height: 60px;
+}
+
+.rt-btn.rt-sm {
+    padding: 14px 14px !important;
+}
+
+.boxheader {
+    float: left;
+    width: 100%;
+}
+
+.roundtriptopfilter {
+    padding: 0;
+
+    button {
+        font-size: 11px !important;
+        width: 20% !important;
+        border-radius: 0 !important;
+        border-right: 1px solid #FFF;
+    }
+}
+
+.fstops .active {
+    background: linear-gradient(14deg, #9932f5 0%, #9932f5 36%, #9932f5 70%, #9932f5 100%);
+}
+
+.phoncodebox {
+    padding: 0 !important;
+
+    select {
+        padding: 0 0px !important;
+        width: 100% !important;
+    }
+}
+
+.error_head {
+    background-image: -webkit-linear-gradient(82deg, #9932f5 0%, #4933f1 53%, #4950f8 70%, #496cfe 100%);
+    background-image: linear-gradient(8deg, #9932f5 0%, #4933f1 53%, #4950f8 70%, #496cfe 100%);
+    color: #FFF;
+    padding: 2px 10px;
+    font-weight: 600;
+}
+
+.error_body {
+    padding: 5px 10px;
+    text-align: center;
+
+    .error {
+        font-size: 14px !important;
+    }
+}
+
+.error_wraper {
+    border: 1px solid #4a54f8;
+}
+
+.error_body a {
+    color: #4a54f8;
+    text-decoration: underline;
+}
+
+.error_wraper div {
+    line-height: 30px;
+}
+
+.bottombarbtn {
+    float: left;
+    margin: 17px 0px;
+    padding: 5px 23px !important;
+}
+
+.succapplied {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+}
+
+.removcode {
+    color: $pink-color;
+    float: right;
+    border: 1px solid;
+    padding: 0 5px;
+    line-height: 14px;
+    margin: 5px 0;
+    cursor: pointer;
+
+    &:hover {
+        background: $pink-color;
+        color: #FFF;
+        border: 1px solid;
+    }
+}
+
+/* .fstops li{
+      float:left;
+  } */
+/*********************flight listig page css***************/
+
+/************************CSS for safari***************/
+/* .custom-control{
+      float: left;
+  }
+  .rt-input-group{
+      clear:both;
+  }
+  .navbar > .container, .navbar > .container-fluid{
+      display:-webkit-flex;
+  }
+  
+  .navbar > .container > a{
+      float:left;
+  }
+  .navbar > .container > div{
+      float:right;
+  }
+  .top-header{
+      float: left;
+  width: 100%;
+  }
+  .top-header > .container > div{
+      float: left;
+      width: 100%;
+  }
+  .topcol1{
+      float: left;
+  }
+  .topcol2{
+      float: right;
+  }
+  ul.serachnavs li{
+      float:left;
+  }
+  .rt-banner-searchbox{
+      overflow:none !important;
+  }
+  .t-datepicker-day{
+      clear:both;
+  } */
+/************************CSS for safari***************/
+
+.trvelerInfo {
+    .addh, .minush {
+      width: 10%;
+      margin-top: 10px;
+      cursor: pointer;
+      border: 1px solid #EEE;
+    }
+  }
+  
+  .hotelInfo {
+    .addh, .minush {
+      width: 10%;
+      margin-top: 10px;
+      cursor: pointer;
+      border: 1px solid #EEE;
+    }
+  }
+  
+  .trvelerInfo {
+    .addh, .minush, .travelerDetails {
+      float: left;
+    }
+  }
+  
+  .hotelInfo {
+    .addh, .minush {
+      float: left;
+    }
+  }
+  
+  .editroom {
+    float: right;
+    color: $heading-color;
+    cursor: pointer;
+    padding: 0.1rem 0.75rem;
+    border-radius: 4px;
+    &:hover {
+        background-color: lighten($color: $meta-color, $amount: 20);
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+  }
+  
+  .roomshortinfo {
+    font-size: 1.25rem;
+  }
+  
+  .removeRoom {
+    float: right;
+    border-radius: 4px;
+    padding: 0.1rem 0.5rem;
+    &:hover {
+        background-color: lighten($color: $meta-color, $amount: 20);
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+  }
