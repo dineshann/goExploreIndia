@@ -258,30 +258,19 @@
     <!-- ============= Banner Area Start =========== -->
     <section class="rt-banner-area">
         <div class="single-rt-banner rt-banner-height">
-            <div class="video-player">
+            <!-- <div class="video-player">
                 <video class="homevideo" muted="" autoplay="" playsinline="" loop="">
                     <source src="assets/video/Home_Page_Vdo2.mp4" type="video/mp4">
-                    <!-- <source src="assets/video/home.webm" type="video/webm">
+                    <source src="assets/video/home.webm" type="video/webm">
                     <source src="assets/video/home.ogg" type="video/ogg">
-                    <source src="assets/video/home.mov" type="video/mov"> -->
+                    <source src="assets/video/home.mov" type="video/mov">
                 </video>
-            </div>
+            </div> -->
             <div class="container">
                 <div class="row  rt-banner-height align-items-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         
                         <div class="rt-banner-content text-white">
-                            <!-- <h1 class="wow fade-in-bottom" data-wow-duration="1s" data-wow-delay="0.5s">
-                                Explore <br>
-                                The World!
-                            </h1> -->
-                            <img src="assets/images/namaste.png" alt=""  data-wow-duration="1s" data-wow-delay="0.5s" style="width: auto;" />
-
-                            <p class="wow fade-in-top mt-5" style="color: #252c48;">
-                                You can create a Custom Trip with <strong>Smart DEV</strong> &amp; find a better way to travel!<br>
-                                Search Our Lowest Fares to Your Favorite Destinations.
-                            </p>
-
                             <!-- Tab Heading -->
                             <ul class="nav nav-fill serachnavs customsearch dark-search-nav wow fade-in-bottom" id="rtMultiTab" role="tablist"
                                 data-wow-duration="1.5s" data-wow-delay="1.5s">
@@ -1002,76 +991,77 @@
                                                     </select>
                                                 </div>
                                                 
-                                            <div class="single-input col-rt-in-2 hguestroombox">
-                                                <input type="hidden" name="rooms" id="ttlhrooms" value="1" />
-                                                                    
-                                                <div class="dropdown">
-                                                  <button class="btn btn-primary dropdown-toggle ttltraveler hguestroombtn" type="button" data-toggle="dropdown"><span class="traveler_count">2</span> Guest|<span class="current_class"> 1 Rooms</span>
-                                                  <span class="caret"></span></button>
-                                                  <ul class="dropdown-menu traveldropdown htravelerdropbox">
-                                                    <li>
-                                                        <div class="travelerBox htravelerBox">
-                                                            <div class="guestBox">
-                                                                <input type="hidden" name="adults[0]" class="roomadults" value="2" />
-                                                                <input type="hidden" name="children[0]" class="roomchildren" value="0" />
-                                                            
-                                                                <div class="hrooms">
-                                                                    <div class="hot_rooms">
-                                                                        Room <span class="rc">1</span>
-                                                                    </div>
-                                                                    <span class="pull-right removeRoom" onclick="removeRoom(this)" data-tippy="Remove"><i class="icofont-close-squared-alt"></i></span>
-                                                                </div>
-                                                                <div class="roomshortinfo">
-                                                                    <span class="radults">2 </span> Adults, <span class="rchildren">0</span> Children
-                                                                    <span onclick="updguests(this)" class="editroom pull-right" data-tippy="Edit"><i class="icofont-ui-edit"></i></span>
-                                                                </div>
-                                                                <div class="trvelerInfo htravelerinfo">
-                                                                    <span class="minush" onclick="remove_guests(this)" rel="2"><i class="fa fa-minus"></i></span>
-                                                                    <div class="travelerDetails t_2">
-                                                                        <small>+12 yrs</small>
-                                                                        <div class="adults">
-                                                                            <span>2</span> Adult
+                                                <div class="single-input col-rt-in-2 hguestroombox">
+                                                    <input type="hidden" name="rooms" id="ttlhrooms" value="1" />
+                                                                        
+                                                    <div class="dropdown">
+                                                    <button class="btn btn-primary dropdown-toggle ttltraveler hguestroombtn" type="button" data-toggle="dropdown"><span class="traveler_count">2</span> Guest|<span class="current_class"> 1 Rooms</span>
+                                                    <span class="caret"></span></button>
+                                                    <ul class="dropdown-menu traveldropdown htravelerdropbox">
+                                                        <li>
+                                                            <div class="travelerBox htravelerBox">
+                                                                <div class="guestBox">
+                                                                    <input type="hidden" name="adults[0]" class="roomadults" value="2" />
+                                                                    <input type="hidden" name="children[0]" class="roomchildren" value="0" />
+                                                                
+                                                                    <div class="hrooms">
+                                                                        <div class="hot_rooms">
+                                                                            Room <span class="rc">1</span>
                                                                         </div>
+                                                                        <span class="pull-right removeRoom" onclick="removeRoom(this)" data-tippy="Remove"><i class="icofont-close-squared-alt"></i></span>
                                                                     </div>
-                                                                    <span class="addh" onclick="add_moreguest(this)" rel="2"><i class="fa fa-plus"></i></span>
-                                                                </div>
-                                                                <div class="trvelerInfo">
-                                                                    <span class="minush" onclick="remove_guests(this)" rel="2"><i class="fa fa-minus"></i></span>
-                                                                    <div class="travelerDetails t_2">
-                                                                        <small>2-12 yrs</small>
-                                                                        <div class="child">
-                                                                            <span>0</span> Child
+                                                                    <div class="roomshortinfo">
+                                                                        <span class="radults">2 </span> Adults, <span class="rchildren">0</span> Children
+                                                                        <span onclick="updguests(this)" class="editroom pull-right" data-tippy="Edit"><i class="icofont-ui-edit"></i></span>
+                                                                    </div>
+                                                                    <div class="trvelerInfo htravelerinfo">
+                                                                        <span class="minush" onclick="remove_guests(this)" rel="2"><i class="fa fa-minus"></i></span>
+                                                                        <div class="travelerDetails t_2">
+                                                                            <small>+12 yrs</small>
+                                                                            <div class="adults">
+                                                                                <span>2</span> Adult
+                                                                            </div>
                                                                         </div>
+                                                                        <span class="addh" onclick="add_moreguest(this)" rel="2"><i class="fa fa-plus"></i></span>
                                                                     </div>
-                                                                    <span class="addh" onclick="add_moreguest(this)" rel="2"><i class="fa fa-plus"></i></span>
-                                                                </div>
-                                                                <div class="childrenAge trvelerInfo">
-                                                                    <div class="cage" style="display:none;">
-                                                                        <span>Child <small>1</small> Age</span>&nbsp;
-                                                                        <select class="childAge" name="childrenAge[0][]">
-                                                                            <option value="2">2</option>
-                                                                            <option value="3">3</option>
-                                                                            <option value="4">4</option>
-                                                                            <option value="5">5</option>
-                                                                            <option value="6">6</option>
-                                                                            <option value="7">7</option>
-                                                                            <option value="8">8</option>
-                                                                            <option value="9">9</option>
-                                                                            <option value="10">10</option>
-                                                                            <option value="11">11</option>
-                                                                            <option value="12">12</option>
-                                                                        </select>
+                                                                    <div class="trvelerInfo">
+                                                                        <span class="minush" onclick="remove_guests(this)" rel="2"><i class="fa fa-minus"></i></span>
+                                                                        <div class="travelerDetails t_2">
+                                                                            <small>2-12 yrs</small>
+                                                                            <div class="child">
+                                                                                <span>0</span> Child
+                                                                            </div>
+                                                                        </div>
+                                                                        <span class="addh" onclick="add_moreguest(this)" rel="2"><i class="fa fa-plus"></i></span>
+                                                                    </div>
+                                                                    <div class="childrenAge trvelerInfo">
+                                                                        <div class="cage" style="display:none;">
+                                                                            <span>Child <small>1</small> Age</span>&nbsp;
+                                                                            <select class="childAge" name="childrenAge[0][]">
+                                                                                <option value="2">2</option>
+                                                                                <option value="3">3</option>
+                                                                                <option value="4">4</option>
+                                                                                <option value="5">5</option>
+                                                                                <option value="6">6</option>
+                                                                                <option value="7">7</option>
+                                                                                <option value="8">8</option>
+                                                                                <option value="9">9</option>
+                                                                                <option value="10">10</option>
+                                                                                <option value="11">11</option>
+                                                                                <option value="12">12</option>
+                                                                            </select>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div style="padding: 6px;float: right;width: 100%;border-top: 1px solid #28b6e9;">
-                                                            <button type="button" id="addnewroom" style="float: right;" class="btn btn-default btn-sm">Add Room</button>
-                                                        </div>
-                                                    </li>
-                                                  </ul>
+                                                            <div style="padding: 6px;float: right;width: 100%;border-top: 1px solid #28b6e9;">
+                                                                <button type="button" id="addnewroom" style="float: right;" class="btn btn-default btn-sm">Add Room</button>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    </div>
                                                 </div>
-                                            </div>
+
                                                 <div class="single-input  col-rt-in-1">
                                                     <button type="submit"><i class="icofont-search"></i></button>
                                                 </div>
@@ -1167,7 +1157,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="rt-btn pill text-center px-5 py-4 btn-block texttyping smartdev_btn"><span class="typed-text"></span><span class="cursor">&nbsp;</span></a>
+                <!-- <a href="#" class="rt-btn pill text-center px-5 py-4 btn-block texttyping smartdev_btn"><span class="typed-text"></span><span class="cursor">&nbsp;</span></a> -->
             </div>
         </div>
     </section>
