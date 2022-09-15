@@ -1,0 +1,66 @@
+.navMenu {
+    .topHeader {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                padding-right: 30px;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    display: block;
+                    text-align: center;
+                    color: $cpurpel;
+                    @include transition($all);
+
+                    &:hover {
+                        color: $cblue;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottomHeader {
+        .main-menu {
+            margin-top: 1.25rem;
+            ul {
+                margin: 0;
+                margin-right: -13px;
+                padding: 0;
+                list-style: outside none none;
+                text-align: center;
+
+                li {
+                    position: relative;
+                    display: inline-block;
+
+                    a {
+                        font-size: 16px;
+                        font-weight: 500;
+                        display: block;
+                        padding: 4px 12px;
+                        @include transition($all);
+                        text-transform: capitalize;
+                        color: $cdark;
+
+                        &:hover {
+                            color: $cwhite;
+                            background: $cpurpel;
+                            border-radius: 4px;
+                            box-shadow: 0 8px 10px -4px rgb(80 80 80 / 20%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

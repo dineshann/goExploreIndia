@@ -1,5 +1,5 @@
 // Var
-$pink-color: #ba195a;
+$pink-color: $pink-color;
 $darkblue: #091b30;
 
 // body {
@@ -2116,7 +2116,7 @@ $darkblue: #091b30;
       }
     }
     .btn-secondary {
-      font-size: 1.4rem;
+      font-size: 1rem;
       letter-spacing: 0.6px;
       margin-right: 0.8rem;
       border-radius: 10px;
@@ -2140,7 +2140,7 @@ $darkblue: #091b30;
 // }
 
 .text-333 {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .c-serachnavs {
@@ -2200,7 +2200,7 @@ $darkblue: #091b30;
 }
 
 .rt-lightwhite {
-  background-color: #dddcdd;
+  background-color: #ffffff;
 }
 
 .minh-100vh {

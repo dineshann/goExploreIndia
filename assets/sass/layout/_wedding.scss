@@ -9,13 +9,15 @@
         padding-top: 40px;
         
         h1 {
+            font-size: 3rem !important;
+            line-height: 60px !important;
             color: white;
             text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
             margin-bottom: 1.5rem;
         }
         h2 {
             color: white;
-            font-size: 4rem;
+            font-size: 1.5rem;
             font-family: $Lato;
             max-width: 60%;
             text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -39,19 +41,20 @@
 
 .wedding-sec {
     position: relative;
+    margin-top: 4rem;
     // Form Section
     &--formSec {
         &__heading{
             h2 {
                 color: $pink-color;
-                font-size: 4.8rem;
+                font-size: 1.8rem;
                 margin-bottom: 0.5rem;
                 font-weight: 600;
                 font-family: $Lato;
             }
             h5 {
                 color: $pink-color;
-                font-size: 1.8rem;
+                font-size: 1.2rem;
                 font-family: $Lato;
             }
         }
@@ -96,20 +99,21 @@
                 display: block;
                 padding: 0.8rem 1rem;
                 h5 {
-                    font-size: 2.2rem;
+                    font-size: 1.2rem;
                     font-weight: 100;
                     margin-bottom: 0.1rem;
                     color: #5f5f5f;
                     min-height: 90px;
                 }
                 p {
+                    font-style: 14px;
                     font-weight: 400;
                     color: #828282;
                     min-height: 130px;
                 }
         
                 .tiny-text {
-                    font-size: 13px;
+                    font-size: 14px;
                     color: $pink-color;
                     padding-left: 1rem;
                     @include transition($all);
@@ -143,9 +147,9 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                background-color: rgba(186, 25, 90, 0.7);
+                background-color: rgb(40 115 185 / 70%);
                 h5 {
-                    font-size: 2.2rem;
+                    font-size: 1.2rem;
                     font-weight: 100;
                     margin-bottom: 0.1rem;
                     color: white;
@@ -154,12 +158,12 @@
                 p {
                     font-weight: 400;
                     color: white;
-                    font-size: 1.4rem;
+                    font-size: 14px;
                     line-height: 22px;
                 }
         
                 .tiny-text {
-                    font-size: 13px;
+                    font-size: 14px;
                     color: white;
                     padding-left: 1rem;
                     @include transition($all);
@@ -198,7 +202,7 @@
                 display: block;
                 padding: 0.8rem 1rem;
                 h5 {
-                    font-size: 2rem;
+                    font-size: 1.2rem;
                     font-weight: 100;
                     margin-bottom: 0.5rem;
                     color: #5f5f5f;
@@ -210,7 +214,7 @@
                     justify-content: space-between;
                     span i {
                         color: #ffab53;
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                 }
                 .hc-text {
@@ -232,7 +236,7 @@
                     margin-bottom: 0;
                     color: $pink-color;
                     text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
-                    font-size: 2rem;
+                    font-size: 1.2rem;
                     color: $pink-color;
                 }
                 a {
@@ -240,7 +244,7 @@
                     color: #fdfeff;
                     background-color: $pink-color;
                     border-radius: 20px;
-                    font-size: 13px;
+                    font-size: 14px;
                     padding: 0 1rem;
                     @include transition($all);
                     span {
@@ -281,7 +285,7 @@
                     position: absolute;
                     bottom: 10px;
                     left: 16px;
-                    font-size: 1.8rem;
+                    font-size: 1.2rem;
                     color: white;
                 }
                 &:before {
@@ -299,7 +303,7 @@
                 display: block;
                 padding: 0.8rem 1rem;
                 h5 {
-                    font-size: 2.4rem;
+                    font-size: 1.4rem;
                     font-weight: 100;
                     margin-bottom: 0.1rem;
                     color: #5f5f5f;
@@ -311,7 +315,7 @@
                 }
         
                 .tiny-text {
-                    font-size: 13px;
+                    font-size: 14px;
                     color: $pink-color;
                     padding-left: 1rem;
                     @include transition($all);
@@ -345,9 +349,9 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                background-color: rgba(186, 25, 90, 0.7);
+                background-color: rgb(40 115 185 / 70%);
                 h5 {
-                    font-size: 2.2rem;
+                    font-size: 1.2rem;
                     font-weight: 100;
                     margin-bottom: 0.1rem;
                     color: white;
@@ -356,12 +360,12 @@
                 p {
                     font-weight: 400;
                     color: white;
-                    font-size: 1.4rem;
+                    font-size: 14px;
                     line-height: 22px;
                 }
         
                 .tiny-text {
-                    font-size: 13px;
+                    font-size: 14px;
                     color: white;
                     padding-left: 1rem;
                     @include transition($all);

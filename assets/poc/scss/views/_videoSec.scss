@@ -1,0 +1,12 @@
+.videoSec {
+    position: relative;
+	margin: 4rem auto; 
+
+    @include md-down {
+        margin: 2rem auto;
+    }
+
+    &__vid {
+        height: 90vh;
+    }
+}

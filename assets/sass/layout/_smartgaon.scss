@@ -318,7 +318,7 @@ $colorgrey:#696969;
                         width: 10px;
                         height: 10px;
                         border-radius: 3px;
-                        background-color: #ba195a;
+                        background-color: $pink-color;
                         position: absolute;
                         left: 28px;
                         margin-top: 10px;
@@ -338,7 +338,7 @@ $colorgrey:#696969;
             line-height: 5rem;
         }
         &__text{
-            background-color: #BA195A;
+            background-color: $pink-color;
             width: 56px;
             height: 197px;
             border-radius: 0.7rem;

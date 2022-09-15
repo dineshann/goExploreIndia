@@ -9,7 +9,7 @@
         padding-top: 40px;
         
         h1 {
-            font-size: 8rem;
+            font-size: 4.8rem !important;
             letter-spacing: 2px;
             color: white;
             font-family: $hcfont;
@@ -17,7 +17,7 @@
         }
         h2 {
             color: white;
-            font-size: 2.2rem;
+            font-size: 1.45rem;
             font-family: $Lato;
             text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
         }
@@ -68,7 +68,7 @@
                 display: block;
                 padding: 0.8rem 1rem;
                 h5 {
-                    font-size: 2rem;
+                    font-size: 1.2rem;
                     font-weight: 100;
                     margin-bottom: 0.1rem;
                     color: #5f5f5f;
@@ -94,7 +94,7 @@
                     margin-bottom: 0;
                     color: $pink-color;
                     text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
-                    font-size: 2rem;
+                    font-size: 1rem;
                     color: $pink-color;
                 }
                 a {
@@ -143,9 +143,9 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                background-color: rgba(186, 25, 90, 0.7);
+                background-color: rgb(40 115 185 / 70%);
                 h5 {
-                    font-size: 2.2rem;
+                    font-size: 1.2rem;
                     font-weight: 100;
                     margin-bottom: 0.1rem;
                     color: white;
@@ -154,7 +154,7 @@
                 p {
                     font-weight: 400;
                     color: white;
-                    font-size: 1.4rem;
+                    font-size: 1rem;
                     line-height: 22px;
                 }
         
@@ -193,7 +193,7 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                background-color: rgba(186, 25, 90, 0.7);
+                background-color: rgb(40 115 185 / 70%);
                 h5 {
                     font-size: 2.2rem;
                     font-weight: 100;

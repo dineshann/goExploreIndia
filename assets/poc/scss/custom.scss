@@ -1,0 +1,33 @@
+/* Hello Dini */ 
+
+// Base
+@import "base/variables";
+@import "base/mixins";
+@import "base/general";
+
+// BootStrap
+// @import "../../../../node_modules/bootstrap/scss/bootstrap";
+
+// Plugins
+@import "pulgins/icofont";
+
+// Views
+@import "views/nav";
+@import "views/home";
+@import "views/about";
+@import "views/slider";
+@import "views/searchBox";
+@import "views/stateView";
+@import "views/otherSrv";
+@import "views/geiSpl";
+@import "views/popularSrv";
+@import "views/seasons";
+@import "views/videoSec";
+@import "views/geiTastes";
+@import "views/searchResult";
+
+// Inner Page
+@import "views/handicraft";
+
+@import "views/footer";
+

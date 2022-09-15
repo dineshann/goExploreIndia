@@ -1,0 +1,96 @@
+/*-------------------------------------------------------*/
+/* General
+/*-------------------------------------------------------*/
+::-moz-selection { color: #fff; background: $cdark; }
+::-webkit-selection { color: #fff; background: $cdark; }
+::selection { color: #fff; background: $cdark; }
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+  color: $cdark;
+  @include transition($all);
+}
+
+img {
+  margin-bottom: 1rem;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: $cdark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $body-font;
+  // font-size: 16px;
+  // line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: $cwhite;
+  outline: 0;
+  color: $cdark;
+  width: 100%;
+  // overflow: hidden;
+  // &::-webkit-scrollbar-track {
+  //     background-color: #fff;
+  // }
+  // &::-webkit-scrollbar {
+  //     width: 10px;
+  //     background-color: #fff;
+  // }
+  // &::-webkit-scrollbar-thumb {
+  //     border-radius: 4px;
+  //     background-color: $cdark;
+  // }
+
+  img {
+    border: none;
+    max-width: 100%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+}
+
+
+.spacer {
+  position: relative;
+  min-height: 16vh;
+
+  @include md-down {
+    min-height: 12vh;
+  }
+
+  &__small {
+    position: relative;
+    min-height: 10vh;
+
+    @include md-down {
+      min-height: 5vh;
+    }
+  }
+
+  &__xsmall {
+    position: relative;
+    min-height: 6vh;
+
+    @include md-down {
+      min-height: 3vh;
+    }
+  }
+}
+
+
+.geiLogo {
+  width: 160px;
+  margin-bottom: 0;
+}

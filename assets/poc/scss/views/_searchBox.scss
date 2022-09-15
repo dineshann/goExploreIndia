@@ -1,0 +1,274 @@
+
+.geiSearch {
+    position: relative;
+    // width: 100%;
+    // top: 0;
+    // z-index: -1;
+    padding: 13rem 0 2rem;
+    background-image: url(../img/searchBg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: initial;
+
+    &__btn {
+        position: relative;
+        z-index: 2;
+        width: fit-content;
+        margin: 0 auto -24px;
+        display: flex;
+        justify-content: center;
+        background-color: $cwhite;
+        border-radius: $border6;
+        box-shadow: 0px 6px 48px -30px rgb(0 0 0 / 80%);
+
+        a {
+            display: grid;
+            color: $cdark;
+            min-width: 90px;
+            max-width: 90px;
+            border-radius: $border6;
+            background: $cwhite;
+            padding: 0.5rem 1.2rem;
+            text-align: center;
+            text-decoration: none;
+
+            i {
+                font-size: 2rem;
+            }
+
+            span {
+                font-size: 0.8rem;
+                font-weight: 500;
+                line-height: 14px;
+                margin-top: 0.25rem;
+            }
+
+            &:hover {
+                color: $cwhite;
+                background-color: $cblue;
+            }
+        }
+    }
+    
+    &__input {
+        // width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        border-radius: 8px;
+        box-shadow: 0px 6px 48px -30px rgb(0 0 0 / 80%);
+        background-color: #fff;
+        padding: 36px 20px 20px;
+        margin-bottom: 3rem;
+
+        .btn-primary {
+            background-color: $cblue;
+            color: $cwhite;
+            border-color: darken($cblue, 10);
+
+            &:hover {
+                background-color: darken($cblue, 20);
+                color: $cwhite;
+            }
+        }
+        
+        .flightOptions {
+            margin-top: 1rem;
+            
+            .form-check {
+                padding: 0.25rem 0.4rem;
+                margin-right: 1rem;
+                border-radius: 6px;
+                background-color: #e4e4e4;
+                @include transition($all);
+                
+                &:hover {
+                    background-color: $cdark;
+                    color: $cwhite;
+                }
+                
+                .form-check-label {
+                    font-size: 0.95rem;
+                    margin-left: -0.15rem;
+                }
+            }
+        }
+    
+        .form {
+            position: relative;
+        
+            .btn-primary {
+                text-align: center;
+                width: 216px;
+                padding: 10px;
+                margin: 0 auto -40px;
+                opacity: 1;
+                font-size: 1.25rem;
+                border-radius: 8px;
+            }
+            .input {
+                position: relative;
+                overflow: hidden;
+                padding: 0.75rem;
+                border: 1px solid $border-color;
+                // @include box-shadow($shadow);
+                @include transition($all);
+
+                &.first-child {
+                    border-radius: $border8 0 0 $border8;
+                }
+
+                &.last-child {
+                    border-radius: 0 $border8 $border8 0;
+                }
+                
+                &:hover {
+                    background-color: darken($bg-light, 4);
+                    
+                    input {
+                        background-color: darken($bg-light, 4);
+                    }
+                }
+                
+                label {
+                    font-size: 0.98rem;
+                    font-weight: 500;
+                }
+                
+                input {
+                    border: none;
+                    padding: 0px;
+                    font-size: 1.8rem;
+                    color: $cdark;
+                    height: auto;
+                    font-weight: 700;
+                    box-shadow: none;
+                    text-transform: capitalize;
+                    @include transition($all);
+                    
+                    &::placeholder {
+                        color: $cgrey;
+                    }
+                    
+                    &::foucs {
+                        border: none;
+                        box-shadow: none;
+                    }
+                }
+                
+                p {
+                    font-size: 0.9rem;
+                    width: max-content;
+                    margin-bottom: 0;
+                }
+            }
+            
+            .ts {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0.75rem;
+                
+                h6 {
+                    margin-right: 0.5rem;
+                    margin-bottom: 0;
+                }
+                
+                .badge {
+                    font-size: 1rem;
+                    padding: 0.4rem 0.65rem;
+                    background-color: $border-color;
+                    color: $cdark;
+                    border-radius: 4px;
+                    font-weight: 400;
+                    margin: 0 0.2rem;
+                    @include transition($all);
+                    text-decoration: none;
+                    
+                    &:hover {
+                        color: $cwhite;
+                        background-color: $cdark;
+                    }
+                }
+            }
+        }
+    }
+
+    .traveldropdown {
+        position: absolute !important;
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        width: 382px !important;
+        padding: 0;
+        top: 40px;
+        left: 0px;
+        background: #FFF;
+        z-index: 2;
+        display: none;
+        border-radius: 10px;
+    
+        li {
+            width: 100% !important;
+            list-style: none;
+
+            .trvelerInfo {
+                text-align: center;
+                float: left;
+                width: 100%;
+                padding: 0px 7px;
+                border-bottom: 1px solid #ddd;
+
+                label {
+                    font-size: 13px !important;
+                }
+            
+                small {
+                    color: #01b7f2;
+                }
+            
+                .adults {
+                    font-size: 16px;
+                }
+
+                .add,
+                .minus,
+                .travelerDetails {
+                    float: left;
+                }
+
+                .addp,
+                .minusp {
+                    float: left;
+                    width: 10%;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    border: 1px solid #EEE;
+                }
+
+                .add,
+                .minus {
+                    width: 10%;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    border: 1px solid #EEE;
+
+                    &:hover {
+                        background: #01b7f2;
+                        color: #FFF;
+                    }
+                }
+
+                .travelerDetails {
+                    width: 80%;
+                    line-height: 20px;
+                }
+
+                .addh, .minush {
+                    width: 10%;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    border: 1px solid #EEE;
+                }
+            }
+        }
+    }
+    
+}

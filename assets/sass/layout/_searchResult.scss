@@ -20,7 +20,7 @@
             padding: 0.5rem 1rem;
             min-height: 48px;
             .entry-title {
-                font-size: 1.75rem;
+                font-size: 1.25rem;
                 font-family: $Lato;
                 font-weight: 600;
                 margin-bottom: 0;
@@ -51,14 +51,14 @@
                 color: $pink-color;
                 margin-top: 5%;
                 font-weight: 800;
-                font-size: 3rem;
+                font-size: 1.8rem;
             }
             .price-info {
                 text-align: center;
                 margin: 1.75rem auto;
                 p {
                     margin-bottom: 0.3rem;
-                    font-size: 1.4rem;
+                    font-size: 1rem;
                     line-height: 22px;
                     &.tbold {
                         font-weight: 600;
@@ -72,7 +72,7 @@
                 margin: 0 auto;
                 border-radius: $border6;
                 padding: 0.6rem 1rem;
-                font-size: 1.6rem;
+                font-size: 1.25rem;
                 background-color: #5EBB3F;
                 color: white;
                 @include transition($all);
@@ -87,13 +87,13 @@
             line-height: 3.3rem;
             .edit {
                 i {
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     color: $pink-color;
                 }
             }
             i{
                 color: $dark-font;
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
             .adult,
             .datebetween {
@@ -305,7 +305,7 @@
                     position: relative;
                     text-shadow: 0 0 2px rgba(0,0,0,.2);
                     i {
-                        font-size: 2.2rem;
+                        font-size: 1.5rem;
                         color: $pink-color;
                         margin-top: 0.4rem;
                     }
@@ -334,7 +334,7 @@
                     }
                     &__destination {
                         span {
-                            font-size: 1.75rem;
+                            font-size: 1.25rem;
                             font-weight: 800;
                         }
                     }
@@ -503,7 +503,7 @@
                     font-size: 2.2rem;
                 }
                 .f_summery {
-                    font-size: 1.75rem;
+                    font-size: 1.25rem;
                     color: $dark-font;
                 }
             }
@@ -531,7 +531,7 @@
                         background-color: #ececec;
                         margin: 0.25rem 0 0.25rem 0;
                         i {
-                            font-size: 3rem;
+                            font-size: 1.5rem;
                             color: $pink-color;
                             margin-top: 0px;
                         }
@@ -584,7 +584,7 @@
                             -webkit-justify-content: flex-start;
                             justify-content: flex-start;
                             font-weight: bold;
-                            font-size: 1.75rem;
+                            font-size: 1.25rem;
                             margin: 0;
                             width: 100%;
                             line-height: 20px;
@@ -653,7 +653,7 @@
                         text-align: center;
                         color: $pink-color;
                         margin-bottom: 0;
-                        font-size: 1.8rem;
+                        font-size: 1.1rem;
                         line-height: 36px;
                         background-color: #e6d7dd;
                         @include transition ($all);
@@ -1100,7 +1100,7 @@
             &__heading {
                 text-align: center;
                 color: $pink-color;
-                font-size: 2.2rem;
+                font-size: 1.2rem;
                 margin-bottom: 0.25rem;
             }
             &__vpoint {
@@ -1115,7 +1115,7 @@
                 .vpoint {
                     @include display-flex;
                     i {
-                        font-size: 2.4rem;
+                        font-size: 1.25rem;
                     }
                     .sepoint {
                         position: relative;
@@ -1133,7 +1133,7 @@
                         color: #707070;
                         position: relative;
                         top: 36px;
-                        font-size: 1.4rem;
+                        font-size: 14px;
                         left: -12%;
                         font-weight: 700;
                     }
@@ -1158,10 +1158,10 @@
                     .sub_icon {
                         color: $dark-font;
                         margin-right: 2rem;
-                        font-size: 2rem;
+                        font-size: 1.4rem;
                     }
                     .f_summery {
-                        font-size: 1.5rem;
+                        font-size: 1.15rem;
                         color: $dark-font;
                     }
                 }
@@ -1190,14 +1190,14 @@
                     color: $pink-color;
                     margin-top: 1rem;
                     font-weight: 800;
-                    font-size: 3rem;
+                    font-size: 2rem;
                 }
                 .price-info {
                     text-align: center;
                     margin: 1rem auto 0;
                     p {
                         margin-bottom: 0.3rem;
-                        font-size: 1.4rem;
+                        font-size: 1.1rem;
                         line-height: 22px;
                         &.tbold {
                             font-weight: 600;
@@ -1209,7 +1209,7 @@
                     color: white;
                     text-align: center;
                     display: block;
-                    padding: 5rem;
+                    padding: 3.7rem;
                     border-radius: $border8;
                     margin-bottom: 1.75rem;
                     box-shadow: $shadow-l;
@@ -1219,7 +1219,7 @@
                 }
             }
             .text_footer {
-                font-size: 3rem;
+                font-size: 2rem;
                 font-weight: 600;
             }
             .pink-btn {

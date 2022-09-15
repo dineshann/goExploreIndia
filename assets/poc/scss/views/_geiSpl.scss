@@ -1,0 +1,45 @@
+// Watch and Be Inspired
+.geiSpl {
+	position: relative;
+	margin: 4rem auto; 
+
+    @include md-down {
+        margin: 2rem auto;
+    }
+
+	.min-vh {
+		height: 72vh;
+	}
+
+	&__heading {
+        h4 {
+			font-size: 3rem;
+			text-align: left;
+			color: $cdark;
+			margin-bottom: 0.5rem;
+			font-weight: 800;
+
+			span {
+				color: $cblue;
+			}
+		}
+
+		p {
+			font-size: 1.25rem;
+			color: $cgrey;
+		}
+    }
+
+	.btn-primary {
+		margin-top: 1.5rem;
+		background-color: $cblue;
+		padding: 0.65rem 1.75rem;
+		color: $cwhite;
+		border-color: darken($cblue, 10);
+
+		&:hover {
+			background-color: darken($cblue, 20);
+			color: $cwhite;
+		}
+	}
+}

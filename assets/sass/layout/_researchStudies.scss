@@ -8,12 +8,14 @@
         padding-top: 40px;
         
         h1 {
+            font-size: 3.25rem !important;
+            line-height: 70px !important;
             color: white;
             text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
         }
         h2 {
             color: white;
-            font-size: 4rem;
+            font-size: 1.5rem;
             font-family: $Lato;
             max-width: 80%;
             text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -73,7 +75,7 @@
             box-shadow: $shadow-l;
             h6 {
                 font-family: $Lato;
-                font-size: 1.8rem;
+                font-size: 1.4rem;
                 line-height: 26px;
                 font-weight: 500;
                 margin-top: 1.6rem;
@@ -99,19 +101,19 @@
         // padding-left: 3rem;
         .rt-section-title {
             color: $pink-color;
-            font-size: 32px;
+            font-size: 30px;
             // font-family: $Lato;
             margin-bottom: 0.8rem;
         }
         h4 {
             color: $dark-font;
             font-family: $Lato;
-            font-size: 1.8rem;
+            font-size: 16px;
             margin-bottom: 2.2rem;
         }
         p {
-            font-size: 1.8rem;
-            line-height: 32px;
+            font-size: 16px;
+            line-height: 28px;
             margin-bottom: 2.2rem;
         }
     }
@@ -131,7 +133,7 @@
             display: block;
             padding: 0.8rem 1rem;
             h5 {
-                font-size: 2.2rem;
+                font-size: 1.5rem;
                 font-weight: 100;
                 margin-bottom: 0.4rem;
                 color: #5f5f5f;
@@ -175,7 +177,7 @@
                 position: absolute;
                 bottom: 10px;
                 left: 16px;
-                font-size: 1.8rem;
+                font-size: 1.2rem;
                 color: white;
             }
             &:before {
@@ -228,14 +230,14 @@
         // padding-left: 3rem;
         .rt-section-title {
             color: $pink-color;
-            font-size: 42px;
+            font-size: 36px;
             // font-family: $Lato;
             margin-bottom: 0.8rem;
         }
         h4 {
             color: $dark-font;
             font-family: $Lato;
-            font-size: 2rem;
+            font-size: 1.4rem;
             margin-bottom: 2.2rem;
         }
         p {
@@ -247,7 +249,7 @@
     &--courses {
         padding: 0 2.6rem;
         h4 {
-            font-size: 2.6rem;
+            font-size: 1.6rem;
             text-transform: uppercase;
             color: $pink-color;
             font-family: $Lato;

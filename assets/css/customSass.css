@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   border-radius: 0px;
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 
 /*-------------------------------------------------------*/
@@ -428,12 +428,12 @@ input[type=text]:disabled {
 }
 
 .error {
-  color: #ba195a !important;
+  color: #2873b9 !important;
   font-size: 11px !important;
 }
 
 .req_error {
-  border: 1px solid #ba195a !important;
+  border: 1px solid #2873b9 !important;
 }
 
 .returndate {
@@ -526,7 +526,7 @@ input[type=text]:disabled {
   font-size: 1.8rem;
   margin-right: 4px;
   cursor: pointer;
-  color: #ba195a;
+  color: #2873b9;
   display: none;
 }
 
@@ -1079,7 +1079,7 @@ priceDesc {
 }
 
 .removcode {
-  color: #ba195a;
+  color: #2873b9;
   float: right;
   border: 1px solid;
   padding: 0 5px;
@@ -1088,7 +1088,7 @@ priceDesc {
   cursor: pointer;
 }
 .removcode:hover {
-  background: #ba195a;
+  background: #2873b9;
   color: #FFF;
   border: 1px solid;
 }
@@ -1527,7 +1527,7 @@ priceDesc {
   text-decoration: none;
 }
 .sfb-intro__links .single-media a:hover span {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: bolder;
 }
 .sfb-intro__links .single-media.pos__a {
@@ -1566,7 +1566,7 @@ priceDesc {
 .sfb-intro__links .popup-vedio .circle-1 {
   width: 100%;
   height: 100%;
-  background-color: #ba195a;
+  background-color: #2873b9;
   top: 0;
   animation: pulse 1.2s linear 0s infinite;
 }
@@ -2845,7 +2845,7 @@ priceDesc {
   width: 260px;
 }
 .filter-sec .dropdown .btn-secondary {
-  font-size: 1.4rem;
+  font-size: 1rem;
   letter-spacing: 0.6px;
   margin-right: 0.8rem;
   border-radius: 10px;
@@ -2861,7 +2861,7 @@ priceDesc {
 }
 
 .text-333 {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .c-serachnavs li {
@@ -2916,7 +2916,7 @@ priceDesc {
 }
 
 .rt-lightwhite {
-  background-color: #dddcdd;
+  background-color: #ffffff;
 }
 
 .minh-100vh {
@@ -3217,7 +3217,7 @@ priceDesc {
   writing-mode: vertical-rl;
   -webkit-text-orientation: mixed;
   text-orientation: mixed;
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: #4d5cf2;
   letter-spacing: 2px;
@@ -3267,9 +3267,9 @@ priceDesc {
   margin-bottom: -18%;
 }
 .smart-dev__logo img {
-  min-width: 400px;
+  min-width: 350px;
   margin-top: -40%;
-  margin-left: -35%;
+  margin-left: -20%;
 }
 
 #smartDev {
@@ -3291,7 +3291,7 @@ priceDesc {
   width: auto;
   height: 54vh;
   top: -20px;
-  padding: 2rem 4rem;
+  padding: 1rem;
   background-image: url(assets/images/sun_rain_snow.png);
 }
 
@@ -3436,7 +3436,7 @@ priceDesc {
   line-height: 2;
 }
 #msform fieldset .form-card select.list-dt:focus {
-  border-bottom: 2px solid #ba195a;
+  border-bottom: 2px solid #2873b9;
 }
 #msform fieldset .step-forms {
   min-height: 68vh;
@@ -3518,7 +3518,7 @@ priceDesc {
   box-shadow: none !important;
   border: none;
   font-weight: bold;
-  border-bottom: 2px solid #ba195a;
+  border-bottom: 2px solid #2873b9;
   outline-width: 0;
 }
 #msform .action-button {
@@ -3595,7 +3595,7 @@ priceDesc {
   z-index: -1;
 }
 #progressbar li.active:before, #progressbar li.active:after {
-  background: #ba195a;
+  background: #2873b9;
 }
 
 .dark-search .single-input .form-control {
@@ -3724,16 +3724,16 @@ priceDesc {
   border: 0;
 }
 .smartDT .serachnavs-c li .active {
-  background: #ba195a;
+  background: #2873b9;
 }
 .smartDT .serachnavs-c li .active:after {
-  border-left-color: #ba195a;
+  border-left-color: #2873b9;
 }
 .smartDT .serachnavs-c li a:hover {
-  background: #ba195a;
+  background: #2873b9;
 }
 .smartDT .serachnavs-c li a:hover:after {
-  border-left-color: #ba195a;
+  border-left-color: #2873b9;
 }
 .smartDT .searchform {
   position: relative;
@@ -3790,7 +3790,7 @@ priceDesc {
   line-height: 2;
 }
 .smartDT .searchform fieldset .form-card select.list-dt:focus {
-  border-bottom: 2px solid #ba195a;
+  border-bottom: 2px solid #2873b9;
 }
 .smartDT .searchform fieldset .step-form {
   min-height: 60vh;
@@ -3814,7 +3814,7 @@ priceDesc {
   border-radius: 20px;
   font-family: "Lato", sans-serif;
   margin-bottom: 2rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
 }
@@ -3828,7 +3828,7 @@ priceDesc {
 .smartDT .searchform fieldset .step-form .text-t h2 {
   line-height: 36px;
   text-align: center;
-  font-size: 2.6rem;
+  font-size: 1.35rem;
   font-weight: 500;
   color: #212326;
   font-family: "Lato", sans-serif;
@@ -3844,8 +3844,8 @@ priceDesc {
   padding-right: 4rem;
 }
 .smartDT .searchform fieldset .step-form .smartAI--text h4 {
-  font-size: 2.6rem;
-  color: #ba195a;
+  font-size: 1.6rem;
+  color: #2873b9;
 }
 .smartDT .searchform fieldset .step-form .smartAI--text p {
   color: black;
@@ -3873,7 +3873,7 @@ priceDesc {
   width: 100%;
   height: 36px;
   box-sizing: border-box;
-  color: #ba195a;
+  color: #2873b9;
   font-size: 18px;
   letter-spacing: 1px;
   background: transparent;
@@ -3883,7 +3883,7 @@ priceDesc {
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
-  border-bottom: 2px solid #ba195a;
+  border-bottom: 2px solid #2873b9;
   outline-width: 0;
 }
 .smartDT .searchform fieldset .step-form .rt-radio-group .custom-control-inline {
@@ -3891,15 +3891,15 @@ priceDesc {
 }
 .smartDT .searchform fieldset .step-form .rt-radio-group .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #ba195a;
-  background-color: #ba195a;
+  border-color: #2873b9;
+  background-color: #2873b9;
 }
 .smartDT .searchform fieldset .step-form .rt-radio-group .custom-control-label::before {
   top: 4px;
   left: -28px;
   width: 20px;
   height: 20px;
-  border-color: #ba195a;
+  border-color: #2873b9;
 }
 .smartDT .searchform fieldset .step-form .rt-radio-group .custom-control-label::after {
   top: 4px;
@@ -3912,7 +3912,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 10px 5px;
   -webkit-transition: all 500ms ease-in-out;
@@ -3927,7 +3927,7 @@ priceDesc {
   bottom: 10px;
 }
 .smartDT .searchform .action-button:hover, .smartDT .searchform .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
   border: none;
 }
 .smartDT .searchform .action-button-previous {
@@ -3935,7 +3935,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 10px 5px;
   -webkit-transition: all 500ms ease-in-out;
@@ -3947,7 +3947,7 @@ priceDesc {
   bottom: -10px;
 }
 .smartDT .searchform .action-button-previous:hover, .smartDT .searchform .action-button-previous:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
   border: none;
 }
 
@@ -3987,12 +3987,12 @@ priceDesc {
 .main-header .entry-title {
   font-size: 4rem;
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
 }
 .main-header .entry-title-sm {
   font-size: 2.4rem;
-  color: #ba195a;
+  color: #2873b9;
 }
 
 .entry-header {
@@ -4005,16 +4005,18 @@ priceDesc {
 .entry-header .entry-title {
   font-size: 4rem;
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
 }
 .entry-header .entry-title-sm {
   font-size: 2.4rem;
-  color: #ba195a;
+  color: #2873b9;
+  display: flex;
 }
 .entry-header a {
   text-decoration: none;
   color: #1a73e8;
+  font-size: 1.4rem;
 }
 .entry-header a span {
   display: flex;
@@ -4042,7 +4044,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .card-padding .card-things .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
@@ -4101,19 +4103,19 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .card-padding .card-video .details-sec h5 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 110px;
 }
 .card-padding .card-video .details-sec .tiny-text {
-  font-size: 13px;
+  font-size: 14px;
   color: #80868b;
   font-style: italic;
 }
 .card-padding .card-video .details-sec .tiny-text span {
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
 }
 .card-padding .card-video:hover {
@@ -4139,7 +4141,7 @@ priceDesc {
   position: absolute;
   bottom: 10px;
   left: 16px;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   color: white;
 }
 .card-padding .card-destination .dist:before {
@@ -4157,12 +4159,13 @@ priceDesc {
   background-color: #ffffff;
 }
 .card-padding .card-destination .details-sec h5 {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
 .card-padding .card-destination .details-sec p {
+  font-size: 14px;
   font-weight: 400;
   min-height: 90px;
 }
@@ -4181,7 +4184,7 @@ priceDesc {
   font-size: 2.5rem;
 }
 .card-padding .card-destination .details-sec .btn-icon:hover {
-  color: #ba195a;
+  color: #2873b9;
 }
 .card-padding .card-destination:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -4213,7 +4216,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .card-padding .card-hc .details-sec h5 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
@@ -4236,10 +4239,10 @@ priceDesc {
 }
 .card-padding .card-hc .hc-pb h5 {
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
-  font-size: 2rem;
-  color: #ba195a;
+  font-size: 1.2rem;
+  color: #2873b9;
 }
 .card-padding .card-hc .hc-pb a {
   text-decoration: none;
@@ -4264,7 +4267,7 @@ priceDesc {
   white-space: nowrap;
 }
 .card-padding .card-hc .hc-pb a:hover {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .card-padding .card-hc:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -4283,17 +4286,18 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .card-things .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
 .card-things .container p {
+  font-size: 15px;
   font-weight: 400;
   color: #a9a9a9;
 }
 .card-things .container .tiny-text {
-  font-size: 13px;
+  font-size: 14px;
   color: #5f5f5f;
 }
 .card-things .container .tiny-text i {
@@ -4343,19 +4347,19 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .card-video .details-sec h5 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 110px;
 }
 .card-video .details-sec .tiny-text {
-  font-size: 13px;
+  font-size: 14px;
   color: #80868b;
   font-style: italic;
 }
 .card-video .details-sec .tiny-text span {
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
 }
 .card-video:hover {
@@ -4399,7 +4403,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .card-destination .details-sec h5 {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
@@ -4409,7 +4413,7 @@ priceDesc {
   min-height: 90px;
 }
 .card-destination .details-sec .tiny-text {
-  font-size: 13px;
+  font-size: 14px;
   color: #757575;
   font-style: italic;
 }
@@ -4423,7 +4427,7 @@ priceDesc {
   font-size: 2.5rem;
 }
 .card-destination .details-sec .btn-icon:hover {
-  color: #ba195a;
+  color: #2873b9;
 }
 .card-destination:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -4456,7 +4460,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .card-hc .details-sec h5 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
@@ -4479,10 +4483,10 @@ priceDesc {
 }
 .card-hc .hc-pb h5 {
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
-  font-size: 2rem;
-  color: #ba195a;
+  font-size: 1.2rem;
+  color: #2873b9;
 }
 .card-hc .hc-pb a {
   text-decoration: none;
@@ -4507,7 +4511,7 @@ priceDesc {
   white-space: nowrap;
 }
 .card-hc .hc-pb a:hover {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .card-hc:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -4650,7 +4654,7 @@ priceDesc {
 
 .form-control {
   padding: 0.8rem 1.4rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
   height: 48px;
   border-radius: 10px;
 }
@@ -4898,7 +4902,7 @@ priceDesc {
   font-size: 2.5rem;
 }
 .MultiCarousel .MultiCarousel-inner .item .card-destination .details-sec .btn-icon:hover {
-  color: #ba195a;
+  color: #2873b9;
 }
 .MultiCarousel .MultiCarousel-inner .item .card-destination:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -4953,10 +4957,10 @@ priceDesc {
 }
 .MultiCarousel .MultiCarousel-inner .item .card-hc .hc-pb h5 {
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
   font-size: 2rem;
-  color: #ba195a;
+  color: #2873b9;
 }
 .MultiCarousel .MultiCarousel-inner .item .card-hc .hc-pb a {
   text-decoration: none;
@@ -4981,7 +4985,7 @@ priceDesc {
   white-space: nowrap;
 }
 .MultiCarousel .MultiCarousel-inner .item .card-hc .hc-pb a:hover {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .MultiCarousel .MultiCarousel-inner .item .card-hc:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -5054,7 +5058,7 @@ priceDesc {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #ba195a;
+  color: #2873b9;
   border-radius: 0;
   border: none;
   display: flow-root;
@@ -5118,7 +5122,7 @@ priceDesc {
   min-height: 48px;
 }
 .tripSummary .card .card-header .entry-title {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-family: "Lato", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
@@ -5127,7 +5131,7 @@ priceDesc {
 }
 .tripSummary .card .card-header a {
   text-decoration: none;
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .card-header a span {
   display: -webkit-box;
@@ -5147,10 +5151,10 @@ priceDesc {
 }
 .tripSummary .card .card-body .rupee {
   text-align: center;
-  color: #ba195a;
+  color: #2873b9;
   margin-top: 5%;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 1.8rem;
 }
 .tripSummary .card .card-body .price-info {
   text-align: center;
@@ -5158,7 +5162,7 @@ priceDesc {
 }
 .tripSummary .card .card-body .price-info p {
   margin-bottom: 0.3rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 22px;
 }
 .tripSummary .card .card-body .price-info p.tbold {
@@ -5171,7 +5175,7 @@ priceDesc {
   margin: 0 auto;
   border-radius: 6px;
   padding: 0.6rem 1rem;
-  font-size: 1.6rem;
+  font-size: 1.25rem;
   background-color: #5EBB3F;
   color: white;
   -webkit-transition: all 500ms ease-in-out;
@@ -5188,12 +5192,12 @@ priceDesc {
   line-height: 3.3rem;
 }
 .tripSummary .card .date_time .edit i {
-  font-size: 2rem;
-  color: #ba195a;
+  font-size: 1.5rem;
+  color: #2873b9;
 }
 .tripSummary .card .date_time i {
   color: #212326;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .tripSummary .card .date_time .adult,
 .tripSummary .card .date_time .datebetween {
@@ -5201,7 +5205,7 @@ priceDesc {
   margin-left: 3%;
 }
 .tripSummary .card .date_time a {
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route {
   position: static;
@@ -5235,12 +5239,12 @@ priceDesc {
 }
 .tripSummary .card .travel-route__item--icon i {
   font-size: 2.2rem;
-  color: #ba195a;
+  color: #2873b9;
   margin-top: 10px;
   font-size: 1.6rem;
 }
 .tripSummary .card .travel-route__item--icon span {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 14px;
   line-height: 18px;
 }
@@ -5308,7 +5312,7 @@ priceDesc {
   font-size: 14px;
 }
 .tripSummary .card .travel-route__item--midicon.icon-bgcolor i {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .tripSummary .card .travel-route__item--date {
   min-height: 50px;
@@ -5326,7 +5330,7 @@ priceDesc {
   padding: 2px 0;
   position: relative;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route__item--date__small {
   font-size: 13px;
@@ -5360,25 +5364,25 @@ priceDesc {
   color: #1947B0;
 }
 .tripSummary .card .travel-route .destination--even {
-  background-color: #fad8e6;
+  background-color: #e6f0fa;
 }
 .tripSummary .card .travel-route .destination--even .travel-route__item--date {
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--even .travel-route__item--icon span {
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--even .travel-route__item--icon i {
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--even .travel-route__item--midicon span {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--even .travel-route__item--midicon i {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--even .travel-origin--name__destination span {
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--name {
   font-size: 1.6rem !important;
@@ -5401,8 +5405,8 @@ priceDesc {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 .tripSummary .card .travel-route .travel-origin--icon i {
-  font-size: 2.2rem;
-  color: #ba195a;
+  font-size: 1.5rem;
+  color: #2873b9;
   margin-top: 0.4rem;
 }
 .tripSummary .card .travel-route .travel-origin--name {
@@ -5432,10 +5436,10 @@ priceDesc {
   margin: 0;
   width: 100%;
   line-height: 20px;
-  color: #ba195a;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .travel-origin--name__destination span {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 .tripSummary .card .travel-route .travel-flight {
@@ -5607,7 +5611,7 @@ priceDesc {
   font-size: 2.2rem;
 }
 .tripSummary .card .travel-route__summary .f_summery {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   color: #212326;
 }
 .tripSummary .card.timeline {
@@ -5636,12 +5640,12 @@ priceDesc {
   margin: 0.25rem 0 0.25rem 0;
 }
 .tripSummary .card.timeline .travel-route__item--icon i {
-  font-size: 3rem;
-  color: #ba195a;
+  font-size: 1.5rem;
+  color: #2873b9;
   margin-top: 0px;
 }
 .tripSummary .card.timeline .travel-route__item--icon span {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 14px;
   line-height: 18px;
 }
@@ -5666,7 +5670,7 @@ priceDesc {
   font-size: 20px;
 }
 .tripSummary .card.timeline .travel-route__item--midicon.icon-bgcolor i {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .tripSummary .card.timeline .travel-route__item--name {
   display: -webkit-box;
@@ -5691,7 +5695,7 @@ priceDesc {
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
   font-weight: bold;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   margin: 0;
   width: 100%;
   line-height: 20px;
@@ -5748,9 +5752,9 @@ priceDesc {
   min-height: 60px;
   padding: 1rem;
   text-align: center;
-  color: #ba195a;
+  color: #2873b9;
   margin-bottom: 0;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   line-height: 36px;
   background-color: #e6d7dd;
   -webkit-transition: all 500ms ease-in-out;
@@ -5761,7 +5765,7 @@ priceDesc {
 }
 .tripSummary .card.timeline .timeline__destination--addCar a:hover {
   color: white;
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .tripSummary .card.timeline .timeline__destination .travelDestination {
   position: relative;
@@ -5782,7 +5786,7 @@ priceDesc {
   left: 0;
   position: absolute;
   height: 100%;
-  background-color: #ba195a;
+  background-color: #2873b9;
   color: #fff;
 }
 .tripSummary .card.timeline .timeline__destination .travelDestination__img::after {
@@ -5819,7 +5823,7 @@ priceDesc {
 }
 .tripSummary .card.timeline .timeline__destination .travelDestination__info a {
   width: 20%;
-  color: #ba195a;
+  color: #2873b9;
   background-color: rgba(255, 255, 255, 0.75);
   padding: 0.5rem 1rem;
   text-align: center;
@@ -5837,7 +5841,7 @@ priceDesc {
   font-size: 2rem;
 }
 .tripSummary .card.timeline .timeline__destination .travelDestination__info a:hover {
-  background-color: #ba195a;
+  background-color: #2873b9;
   color: white;
 }
 .tripSummary .card.timeline .timeline__destination .travelDestination__info span {
@@ -5872,7 +5876,7 @@ priceDesc {
   display: flex;
 }
 .tripSummary .travelroute-insurances__icon {
-  background-color: #ba195a;
+  background-color: #2873b9;
   color: #fff;
   border-radius: 100px;
   max-width: 50px;
@@ -5941,7 +5945,7 @@ priceDesc {
   font-weight: bold;
   color: white;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 30px;
   padding: 0.8rem 1.75rem;
   -webkit-transition: all 500ms ease-in-out;
@@ -5952,7 +5956,7 @@ priceDesc {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
 }
 .tripSummary .travelroute-insurances__btn .more-btn:hover, .tripSummary .travelroute-insurances__btn .more-btn:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .tripSummary__insuSelected {
   display: -webkit-box;
@@ -6072,7 +6076,7 @@ priceDesc {
   transition: 0.4s;
 }
 .tripSummary__insuSelected__switcher .switch input:checked + .slider {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .tripSummary__insuSelected__switcher .switch input:focus + .slider {
   box-shadow: 0 2px 4px -2px #1947B0;
@@ -6107,7 +6111,7 @@ priceDesc {
   font-weight: bold;
   color: white;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 30px;
   padding: 0.8rem 1.75rem;
   -webkit-transition: all 500ms ease-in-out;
@@ -6118,7 +6122,7 @@ priceDesc {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
 }
 .tripSummary__insuSelected__btn .more-btn:hover, .tripSummary__insuSelected__btn .more-btn:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .tripSummary__insurances.card {
   border-radius: 0 0 8px 8px;
@@ -6192,7 +6196,7 @@ priceDesc {
   transition: 0.4s;
 }
 .tripSummary__insurances .table .insurances__switch .switch input:checked + .slider {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .tripSummary__insurances .table .insurances__switch .switch input:focus + .slider {
   box-shadow: 0 2px 4px -2px #1947B0;
@@ -6227,8 +6231,8 @@ priceDesc {
 }
 .tripSummary__footer--info__heading {
   text-align: center;
-  color: #ba195a;
-  font-size: 2.2rem;
+  color: #2873b9;
+  font-size: 1.2rem;
   margin-bottom: 0.25rem;
 }
 .tripSummary__footer--info__vpoint {
@@ -6251,7 +6255,7 @@ priceDesc {
   display: flex;
 }
 .tripSummary__footer--info__vpoint .vpoint i {
-  font-size: 2.4rem;
+  font-size: 1.25rem;
 }
 .tripSummary__footer--info__vpoint .vpoint .sepoint {
   position: relative;
@@ -6269,12 +6273,12 @@ priceDesc {
   color: #707070;
   position: relative;
   top: 36px;
-  font-size: 1.4rem;
+  font-size: 14px;
   left: -12%;
   font-weight: 700;
 }
 .tripSummary__footer--info__vpoint .b_line {
-  border: 1px solid #ba195a;
+  border: 1px solid #2873b9;
   width: 90%;
   left: 5%;
   position: absolute;
@@ -6296,10 +6300,10 @@ priceDesc {
 .tripSummary__footer--info__data__summary .sub_icon {
   color: #212326;
   margin-right: 2rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .tripSummary__footer--info__data__summary .f_summery {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   color: #212326;
 }
 .tripSummary__footer--info__li {
@@ -6327,10 +6331,10 @@ priceDesc {
 }
 .tripSummary__footer--price__btn .rupee {
   text-align: center;
-  color: #ba195a;
+  color: #2873b9;
   margin-top: 1rem;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .tripSummary__footer--price__btn .price-info {
   text-align: center;
@@ -6338,31 +6342,31 @@ priceDesc {
 }
 .tripSummary__footer--price__btn .price-info p {
   margin-bottom: 0.3rem;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   line-height: 22px;
 }
 .tripSummary__footer--price__btn .price-info p.tbold {
   font-weight: 600;
 }
 .tripSummary__footer--price__btn .payment {
-  background-color: #ba195a;
+  background-color: #2873b9;
   color: white;
   text-align: center;
   display: block;
-  padding: 5rem;
+  padding: 3.7rem;
   border-radius: 8px;
   margin-bottom: 1.75rem;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
 }
 .tripSummary__footer--price__btn .payment:hover {
-  background-color: #e22471;
+  background-color: #3f8dd5;
 }
 .tripSummary__footer--price .text_footer {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .tripSummary__footer--price .pink-btn {
-  color: #ba195a;
+  color: #2873b9;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
   -ms-transition: all 500ms ease-in-out;
@@ -6370,7 +6374,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .tripSummary__footer--price .pink-btn:hover {
-  color: #600d2e;
+  color: #163f65;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -6393,7 +6397,7 @@ priceDesc {
   background-color: #d0dcf8;
 }
 .travelroute-heading.even {
-  background-color: #fad8e6;
+  background-color: #e6f0fa;
 }
 .travelroute-heading .travelroute {
   display: -webkit-box;
@@ -6498,7 +6502,7 @@ priceDesc {
   transition: 0.4s;
 }
 .travelroute-heading__switcher .switch input:checked + .slider {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .travelroute-heading__switcher .switch input:focus + .slider {
   box-shadow: 0 2px 4px -2px #1947B0;
@@ -6533,7 +6537,7 @@ priceDesc {
   font-weight: bold;
   color: white;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 30px;
   padding: 0.8rem 1.75rem;
   -webkit-transition: all 500ms ease-in-out;
@@ -6544,7 +6548,7 @@ priceDesc {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
 }
 .travelroute-heading__btn .more-btn:hover, .travelroute-heading__btn .more-btn:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 
 .in-wedding {
@@ -6559,13 +6563,15 @@ priceDesc {
   padding-top: 40px;
 }
 .in-wedding--content h1 {
+  font-size: 3rem !important;
+  line-height: 60px !important;
   color: white;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
   margin-bottom: 1.5rem;
 }
 .in-wedding--content h2 {
   color: white;
-  font-size: 4rem;
+  font-size: 1.5rem;
   font-family: "Lato", sans-serif;
   max-width: 60%;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -6575,7 +6581,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -6585,22 +6591,23 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .in-wedding--content .action-button:hover, .in-wedding--content .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 
 .wedding-sec {
   position: relative;
+  margin-top: 4rem;
 }
 .wedding-sec--formSec__heading h2 {
-  color: #ba195a;
-  font-size: 4.8rem;
+  color: #2873b9;
+  font-size: 1.8rem;
   margin-bottom: 0.5rem;
   font-weight: 600;
   font-family: "Lato", sans-serif;
 }
 .wedding-sec--formSec__heading h5 {
-  color: #ba195a;
-  font-size: 1.8rem;
+  color: #2873b9;
+  font-size: 1.2rem;
   font-family: "Lato", sans-serif;
 }
 .wedding-sec--formSec__form {
@@ -6614,7 +6621,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -6624,7 +6631,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .wedding-sec--formSec__form .action-button:hover, .wedding-sec--formSec__form .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .wedding-sec .card-padding {
   padding: 0 0.8rem;
@@ -6651,20 +6658,21 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .wedding-sec .card-padding .indian-wedding .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 90px;
 }
 .wedding-sec .card-padding .indian-wedding .container p {
+  font-style: 14px;
   font-weight: 400;
   color: #828282;
   min-height: 130px;
 }
 .wedding-sec .card-padding .indian-wedding .container .tiny-text {
-  font-size: 13px;
-  color: #ba195a;
+  font-size: 14px;
+  color: #2873b9;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -6702,10 +6710,10 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(186, 25, 90, 0.7);
+  background-color: rgba(40, 115, 185, 0.7);
 }
 .wedding-sec .card-padding .popular-search .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: white;
@@ -6714,11 +6722,11 @@ priceDesc {
 .wedding-sec .card-padding .popular-search .container p {
   font-weight: 400;
   color: white;
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 22px;
 }
 .wedding-sec .card-padding .popular-search .container .tiny-text {
-  font-size: 13px;
+  font-size: 14px;
   color: white;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
@@ -6759,7 +6767,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .wedding-sec .card-padding .jewelry-pick .details-sec h5 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.5rem;
   color: #5f5f5f;
@@ -6772,7 +6780,7 @@ priceDesc {
 }
 .wedding-sec .card-padding .jewelry-pick .details-sec .review span i {
   color: #ffab53;
-  font-size: 12px;
+  font-size: 14px;
 }
 .wedding-sec .card-padding .jewelry-pick .details-sec .hc-text {
   font-size: 14px;
@@ -6791,17 +6799,17 @@ priceDesc {
 }
 .wedding-sec .card-padding .jewelry-pick .hc-pb h5 {
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
-  font-size: 2rem;
-  color: #ba195a;
+  font-size: 1.2rem;
+  color: #2873b9;
 }
 .wedding-sec .card-padding .jewelry-pick .hc-pb a {
   text-decoration: none;
   color: #fdfeff;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 14px;
   padding: 0 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -6844,7 +6852,7 @@ priceDesc {
   position: absolute;
   bottom: 10px;
   left: 16px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: white;
 }
 .wedding-sec .card-padding .wedding-theme .dist:before {
@@ -6861,7 +6869,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .wedding-sec .card-padding .wedding-theme .details-sec h5 {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
@@ -6872,8 +6880,8 @@ priceDesc {
   line-height: 22px;
 }
 .wedding-sec .card-padding .wedding-theme .details-sec .tiny-text {
-  font-size: 13px;
-  color: #ba195a;
+  font-size: 14px;
+  color: #2873b9;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -6911,10 +6919,10 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(186, 25, 90, 0.7);
+  background-color: rgba(40, 115, 185, 0.7);
 }
 .wedding-sec .card-padding .magnificent-wedding .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: white;
@@ -6923,11 +6931,11 @@ priceDesc {
 .wedding-sec .card-padding .magnificent-wedding .container p {
   font-weight: 400;
   color: white;
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 22px;
 }
 .wedding-sec .card-padding .magnificent-wedding .container .tiny-text {
-  font-size: 13px;
+  font-size: 14px;
   color: white;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
@@ -6956,7 +6964,7 @@ priceDesc {
 .in-medtour--content h1 {
   color: white;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
-  font-size: 54px !important;
+  font-size: 3rem !important;
   line-height: 70px !important;
   font-family: "Lato", sans-serif;
 }
@@ -6973,7 +6981,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -6983,15 +6991,15 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .in-medtour--content .action-button:hover, .in-medtour--content .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .in-medtour--content ul {
   margin-top: 8rem;
 }
 .in-medtour--content ul li {
-  color: #ba195a;
+  color: #2873b9;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.2rem;
   min-height: 50px;
   font-weight: 600;
 }
@@ -7016,7 +7024,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -7026,26 +7034,26 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .medtour-overview .action-button:hover, .medtour-overview .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .medtour-overview--content {
   padding-left: 3rem;
 }
 .medtour-overview--content .rt-section-title {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 48px;
 }
 .medtour-overview--content p {
-  font-size: 2rem;
-  line-height: 36px;
+  font-size: 16px;
+  line-height: 28px;
   margin-bottom: 2.2rem;
 }
 .medtour-overview--content h4 {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 2.2rem;
 }
 .medtour-overview--content .med-point span {
-  font-size: 2rem;
+  font-size: 15px;
   position: relative;
   margin-left: 2rem;
   margin-right: 1.5rem;
@@ -7055,7 +7063,7 @@ priceDesc {
   width: 10px;
   height: 10px;
   border-radius: 10px;
-  background-color: #ba195a;
+  background-color: #2873b9;
   position: absolute;
   top: 8px;
   left: -18px;
@@ -7064,30 +7072,30 @@ priceDesc {
   position: relative;
 }
 .medtour-overview--advnt .rt-section-title-wrapper .rt-section-title {
-  font-size: 48px;
-  color: #ba195a;
+  font-size: 36px;
+  color: #2873b9;
   margin-bottom: 1rem;
 }
 .medtour-overview--advnt .rt-section-title-wrapper p {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 .medtour-overview--content {
   position: relative;
 }
 .medtour-overview--content .counter-thumb {
   padding: 2rem;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 1rem;
   width: 100px;
   margin: 0 auto 2rem;
 }
 .medtour-overview--content h5 {
-  font-size: 2.6rem;
+  font-size: 1.6rem;
   color: #212326;
 }
 .medtour-overview--content h6 {
   font-family: "Lato", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1rem;
   line-height: 26px;
   font-weight: 400;
 }
@@ -7116,7 +7124,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .medtour-overview .card-padding .medtour-destn .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   font-weight: 100;
   margin-bottom: 0.5rem;
   color: #5f5f5f;
@@ -7128,7 +7136,7 @@ priceDesc {
 }
 .medtour-overview .card-padding .medtour-destn .container .tiny-text {
   font-size: 13px;
-  color: #ba195a;
+  color: #2873b9;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -7150,14 +7158,14 @@ priceDesc {
   justify-content: space-between;
 }
 .medtour-overview .med-header .entry-title {
-  font-size: 3.6rem;
+  font-size: 1.8rem;
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
 }
 .medtour-overview .med-header .entry-title-sm {
   font-size: 2.4rem;
-  color: #ba195a;
+  color: #2873b9;
 }
 .medtour-overview .med-header img {
   width: 80px;
@@ -7167,7 +7175,7 @@ priceDesc {
   margin-right: 1.5rem;
 }
 .medtour-overview .keypoint span {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: 600;
 }
 
@@ -7179,10 +7187,10 @@ priceDesc {
   font-size: 2.6rem;
 }
 .medicalTourism-content .modal-header .modal-title a .mt .mt__in {
-  color: #ba195a;
+  color: #2873b9;
 }
 .medicalTourism-content .modal-header .modal-title a .mt__in--tc {
-  color: #ba195a;
+  color: #2873b9;
 }
 .medicalTourism-content .modal-header .ibm {
   position: absolute;
@@ -7200,7 +7208,7 @@ priceDesc {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .medicalTourism-content .mt-header__heading {
   color: white;
@@ -7250,10 +7258,10 @@ priceDesc {
 }
 .medicalTourism-content .modal-body form .form-control:hover {
   outline: none;
-  border-color: #ba195a;
+  border-color: #2873b9;
 }
 .medicalTourism-content .modal-body form .form-control:focus {
-  border-color: #ba195a;
+  border-color: #2873b9;
   box-shadow: 0 0 5px rgba(186, 25, 90, 0.25);
   outline: 0 none;
 }
@@ -7292,7 +7300,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -7302,7 +7310,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .medicalTourism-content .modal-footer .action-button:hover, .medicalTourism-content .modal-footer .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 
 .in-restudy {
@@ -7316,12 +7324,14 @@ priceDesc {
   padding-top: 40px;
 }
 .in-restudy--content h1 {
+  font-size: 3.25rem !important;
+  line-height: 70px !important;
   color: white;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
 }
 .in-restudy--content h2 {
   color: white;
-  font-size: 4rem;
+  font-size: 1.5rem;
   font-family: "Lato", sans-serif;
   max-width: 80%;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -7331,7 +7341,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -7341,7 +7351,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .in-restudy--content .action-button:hover, .in-restudy--content .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 
 .restudy-overview {
@@ -7352,7 +7362,7 @@ priceDesc {
 }
 .restudy-overview--advnt .rt-section-title-wrapper .rt-section-title {
   font-size: 38px;
-  color: #ba195a;
+  color: #2873b9;
   margin-bottom: 1rem;
 }
 .restudy-overview--advnt .rt-section-title-wrapper p {
@@ -7368,7 +7378,7 @@ priceDesc {
   margin-top: 3rem;
 }
 .restudy-overview--steps .counter-thumb {
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 1rem;
   width: 100%;
   min-height: 180px;
@@ -7388,14 +7398,14 @@ priceDesc {
 }
 .restudy-overview--steps .counter-thumb h6 {
   font-family: "Lato", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 26px;
   font-weight: 500;
   margin-top: 1.6rem;
   color: white;
 }
 .restudy-overview--steps .counter-thumb:hover {
-  background-color: #e22471;
+  background-color: #3f8dd5;
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .restudy-overview .rt-design-elmnts {
@@ -7411,19 +7421,19 @@ priceDesc {
   }
 }
 .restudy-overview--content .rt-section-title {
-  color: #ba195a;
-  font-size: 32px;
+  color: #2873b9;
+  font-size: 30px;
   margin-bottom: 0.8rem;
 }
 .restudy-overview--content h4 {
   color: #212326;
   font-family: "Lato", sans-serif;
-  font-size: 1.8rem;
+  font-size: 16px;
   margin-bottom: 2.2rem;
 }
 .restudy-overview--content p {
-  font-size: 1.8rem;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
   margin-bottom: 2.2rem;
 }
 .restudy-overview .study-guide {
@@ -7448,7 +7458,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .restudy-overview .study-guide .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 100;
   margin-bottom: 0.4rem;
   color: #5f5f5f;
@@ -7459,7 +7469,7 @@ priceDesc {
 }
 .restudy-overview .study-guide .container .tiny-text {
   font-size: 13px;
-  color: #ba195a;
+  color: #2873b9;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -7493,7 +7503,7 @@ priceDesc {
   position: absolute;
   bottom: 10px;
   left: 16px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: white;
 }
 .restudy-overview--blog .dist:before {
@@ -7526,7 +7536,7 @@ priceDesc {
 }
 .restudy-overview--blog .details-sec .tiny-text {
   font-size: 13px;
-  color: #ba195a;
+  color: #2873b9;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -7545,14 +7555,14 @@ priceDesc {
   position: relative;
 }
 .restudy-dprt--content .rt-section-title {
-  color: #ba195a;
-  font-size: 42px;
+  color: #2873b9;
+  font-size: 36px;
   margin-bottom: 0.8rem;
 }
 .restudy-dprt--content h4 {
   color: #212326;
   font-family: "Lato", sans-serif;
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-bottom: 2.2rem;
 }
 .restudy-dprt--content p {
@@ -7564,9 +7574,9 @@ priceDesc {
   padding: 0 2.6rem;
 }
 .restudy-dprt--courses h4 {
-  font-size: 2.6rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
-  color: #ba195a;
+  color: #2873b9;
   font-family: "Lato", sans-serif;
   font-weight: 600;
   margin-bottom: 0.4rem;
@@ -7585,10 +7595,10 @@ priceDesc {
 }
 .restudy-dprt--courses ol li a {
   display: block;
-  color: #ba195a;
+  color: #2873b9;
 }
 .restudy-dprt--courses ol li a:hover {
-  color: #600d2e;
+  color: #163f65;
 }
 .restudy-dprt--img {
   border-radius: 16px;
@@ -7618,7 +7628,7 @@ priceDesc {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
 }
 .counter-box-1 .media-body h6 {
-  color: #ba195a;
+  color: #2873b9;
 }
 .counter-box-1 .media-body h6 span:first-child {
   padding-right: 0.8rem;
@@ -7635,12 +7645,14 @@ priceDesc {
   padding-top: 40px;
 }
 .in-educ--content h1 {
+  font-size: 3.25rem !important;
+  line-height: 70px !important;
   color: white;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
 }
 .in-educ--content h2 {
   color: white;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-family: "Lato", sans-serif;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -7649,7 +7661,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -7659,7 +7671,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .in-educ--content .action-button:hover, .in-educ--content .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 
 .educ-overview {
@@ -7670,7 +7682,7 @@ priceDesc {
 }
 .educ-overview--advnt .rt-section-title-wrapper .rt-section-title {
   font-size: 38px;
-  color: #ba195a;
+  color: #2873b9;
   margin-bottom: 1rem;
 }
 .educ-overview--advnt .rt-section-title-wrapper p {
@@ -7686,7 +7698,7 @@ priceDesc {
   margin-top: 3rem;
 }
 .educ-overview--steps .counter-thumb {
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 1rem;
   width: 100%;
   min-height: 180px;
@@ -7706,14 +7718,14 @@ priceDesc {
 }
 .educ-overview--steps .counter-thumb h6 {
   font-family: "Lato", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 26px;
   font-weight: 500;
   margin-top: 1.6rem;
   color: white;
 }
 .educ-overview--steps .counter-thumb:hover {
-  background-color: #e22471;
+  background-color: #3f8dd5;
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .educ-overview .rt-design-elmnts {
@@ -7729,20 +7741,20 @@ priceDesc {
   }
 }
 .educ-overview--content .rt-section-title {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 38px;
   margin-bottom: 0.8rem;
 }
 .educ-overview--content h4 {
   color: #212326;
   font-family: "Lato", sans-serif;
-  font-size: 1.8rem;
-  margin-bottom: 2.2rem;
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
 }
 .educ-overview--content p {
-  font-size: 1.8rem;
-  line-height: 32px;
-  margin-bottom: 2.2rem;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 1.2rem;
 }
 .educ-overview--coun {
   background-color: #ffffff;
@@ -7762,11 +7774,11 @@ priceDesc {
   margin-right: 1.75rem;
 }
 .educ-overview--coun .d-flex h4 {
-  font-size: 2.4rem;
-  color: #ba195a;
+  font-size: 1.8rem;
+  color: #2873b9;
 }
 .educ-overview--coun p {
-  font-size: 1.9rem;
+  font-size: 15px;
   font-weight: 400;
   margin-bottom: 1.75rem;
 }
@@ -7778,9 +7790,8 @@ priceDesc {
 }
 .educ-overview--coun__link a {
   margin-right: 1rem;
-  color: #ba195a;
-  font-size: 1.75rem;
-  text-decoration: underline;
+  color: #2873b9;
+  font-size: 1.15rem;
   padding: 0.5rem 1.2rem;
   border-radius: 4px;
   -webkit-transition: all 500ms ease-in-out;
@@ -7790,7 +7801,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .educ-overview--coun__link a:hover {
-  background-color: #ba195a;
+  background-color: #2873b9;
   color: #ffffff;
   text-decoration: none;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
@@ -7798,8 +7809,8 @@ priceDesc {
 .educ-overview--coun__tag a {
   margin-right: 1rem;
   display: inline-block;
-  color: #ba195a;
-  font-size: 1.5rem;
+  color: #2873b9;
+  font-size: 1.1rem;
   padding: 0.4rem 1rem;
   border-radius: 20px;
   border: 1px solid #acb2b8;
@@ -7811,10 +7822,10 @@ priceDesc {
   margin-bottom: 1rem;
 }
 .educ-overview--coun__tag a:hover {
-  background-color: #ba195a;
+  background-color: #2873b9;
   color: #ffffff;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
-  border-color: #600d2e;
+  border-color: #163f65;
 }
 .educ-overview--coun:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -7849,11 +7860,11 @@ priceDesc {
 }
 .educ-overview--ap .counter-thumb h6 {
   font-family: "Lato", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.25rem;
   line-height: 26px;
   font-weight: 500;
   margin-top: 1.6rem;
-  color: #ba195a;
+  color: #2873b9;
 }
 .educ-overview--ap .counter-thumb:hover {
   background-color: #e6e6e6;
@@ -7879,7 +7890,7 @@ priceDesc {
   position: absolute;
   bottom: 10px;
   left: 16px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: white;
 }
 .educ-overview--blog .dist:before {
@@ -7912,7 +7923,7 @@ priceDesc {
 }
 .educ-overview--blog .details-sec .tiny-text {
   font-size: 13px;
-  color: #ba195a;
+  color: #2873b9;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -7932,28 +7943,28 @@ priceDesc {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
 }
 .counter-box-1 .media-body h6 {
-  color: #ba195a;
+  color: #2873b9;
 }
 .counter-box-1 .media-body h6 span:first-child {
   padding-right: 0.8rem;
 }
 
 .testimonials-area.c-testimonials-area .rt-section-title-wrapper .rt-section-title {
-  color: #ba195a;
-  font-size: 4.2rem;
+  color: #2873b9;
+  font-size: 2.4rem;
 }
 .testimonials-area.c-testimonials-area .rt-section-title-wrapper .rt-section-title span {
-  color: #e8518e;
+  color: #69a6de;
 }
 .testimonials-area.c-testimonials-area .singleTbox-1.active .testi-thumb {
-  background: -webkit-gradient(linear, left bottom, left top, from(#ba195a), to(#2e5389));
-  background: -webkit-linear-gradient(bottom, #ba195a 0%, #2e5389 100%);
-  background: linear-gradient(0deg, #ba195a 0%, #2e5389 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#2873b9), to(#2e5389));
+  background: -webkit-linear-gradient(bottom, #2873b9 0%, #2e5389 100%);
+  background: linear-gradient(0deg, #2873b9 0%, #2e5389 100%);
 }
 .testimonials-area.c-testimonials-area .singleTbox-1.active .testi-thumb .social-badge {
-  background: -webkit-gradient(linear, left bottom, left top, from(#ba195a), to(#2e5389));
-  background: -webkit-linear-gradient(55deg, #ba195a 0%, #2e5389 100%);
-  background: linear-gradient(35deg, #ba195a 0%, #2e5389 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#2873b9), to(#2e5389));
+  background: -webkit-linear-gradient(55deg, #2873b9 0%, #2e5389 100%);
+  background: linear-gradient(35deg, #2873b9 0%, #2e5389 100%);
 }
 
 .in-hc {
@@ -7968,7 +7979,7 @@ priceDesc {
   padding-top: 40px;
 }
 .in-hc--content h1 {
-  font-size: 8rem;
+  font-size: 4.8rem !important;
   letter-spacing: 2px;
   color: white;
   font-family: "Dr Sugiyama", cursive;
@@ -7976,7 +7987,7 @@ priceDesc {
 }
 .in-hc--content h2 {
   color: white;
-  font-size: 2.2rem;
+  font-size: 1.45rem;
   font-family: "Lato", sans-serif;
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -7985,7 +7996,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -7995,7 +8006,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .in-hc--content .action-button:hover, .in-hc--content .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 
 .handicraft-sec {
@@ -8032,7 +8043,7 @@ priceDesc {
   padding: 0.8rem 1rem;
 }
 .handicraft-sec .card-padding .card-hc .details-sec h5 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
@@ -8055,10 +8066,10 @@ priceDesc {
 }
 .handicraft-sec .card-padding .card-hc .hc-pb h5 {
   margin-bottom: 0;
-  color: #ba195a;
+  color: #2873b9;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
-  font-size: 2rem;
-  color: #ba195a;
+  font-size: 1rem;
+  color: #2873b9;
 }
 .handicraft-sec .card-padding .card-hc .hc-pb a {
   text-decoration: none;
@@ -8083,7 +8094,7 @@ priceDesc {
   white-space: nowrap;
 }
 .handicraft-sec .card-padding .card-hc .hc-pb a:hover {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 .handicraft-sec .card-padding .card-hc:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -8112,10 +8123,10 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(186, 25, 90, 0.7);
+  background-color: rgba(40, 115, 185, 0.7);
 }
 .handicraft-sec .card-padding .pro-cat .container h5 {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: 100;
   margin-bottom: 0.1rem;
   color: white;
@@ -8124,7 +8135,7 @@ priceDesc {
 .handicraft-sec .card-padding .pro-cat .container p {
   font-weight: 400;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 22px;
 }
 .handicraft-sec .card-padding .pro-cat .container .tiny-text {
@@ -8167,7 +8178,7 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(186, 25, 90, 0.7);
+  background-color: rgba(40, 115, 185, 0.7);
 }
 .handicraft-sec .card-padding .magnificent-wedding .container h5 {
   font-size: 2.2rem;
@@ -8232,7 +8243,7 @@ priceDesc {
   background-color: #212326;
 }
 .modal-hc .modal-body h4 {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 3rem;
   padding-left: 1rem;
 }
@@ -8269,7 +8280,7 @@ priceDesc {
   text-align: center;
 }
 .modal-hc .modal-body .ab_in_hc-img ul {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: 600;
   margin-top: 6rem;
   text-align: center;
@@ -8326,7 +8337,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -8336,13 +8347,13 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .in-smartgaon--content .action-button:hover, .in-smartgaon--content .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .in-smartgaon--content ul {
   margin-top: 8rem;
 }
 .in-smartgaon--content ul li {
-  color: #ba195a;
+  color: #2873b9;
   text-transform: uppercase;
   font-size: 2rem;
   min-height: 50px;
@@ -8357,7 +8368,7 @@ priceDesc {
 }
 .smartgaon-overview--advnt .rt-section-title-wrapper .rt-section-title {
   font-size: 48px;
-  color: #ba195a;
+  color: #2873b9;
   margin-bottom: 1rem;
 }
 .smartgaon-overview--advnt .rt-section-title-wrapper p {
@@ -8368,7 +8379,7 @@ priceDesc {
 }
 .smartgaon-overview--content .counter-thumb {
   padding: 2rem;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 1rem;
   width: 100px;
   margin: 0 auto 2rem;
@@ -8382,14 +8393,14 @@ priceDesc {
   font-size: 2.4rem;
   line-height: 26px;
   font-weight: 500;
-  color: #ba195a;
+  color: #2873b9;
   margin-top: 1.2rem;
 }
 .smartgaon-overview--content__img {
   min-height: 125px;
 }
 .smartgaon-overview--content .rt-section-title {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 5rem;
   margin-bottom: 3rem;
 }
@@ -8404,7 +8415,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -8414,7 +8425,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .smartgaon-overview .action-button:hover, .smartgaon-overview .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .smartgaon-overview--blog {
   position: relative;
@@ -8469,7 +8480,7 @@ priceDesc {
 }
 .smartgaon-overview--blog .details-sec .tiny-text {
   font-size: 13px;
-  color: #ba195a;
+  color: #2873b9;
   padding-left: 1rem;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -8484,25 +8495,25 @@ priceDesc {
   text-decoration: underline;
 }
 .smartgaon-overview .our-mission h2 {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 5rem;
   font-weight: 600;
 }
 .smartgaon-overview .our-mission p {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: 600;
 }
 .smartgaon-overview .causes {
   text-align: center;
 }
 .smartgaon-overview .causes__header {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: 600;
   font-size: 5rem;
   font-style: bold;
 }
 .smartgaon-overview .causes__title {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: 600;
   font-size: 2rem;
 }
@@ -8517,7 +8528,7 @@ priceDesc {
 .smartgaon-overview .causes__our--head {
   margin: 1rem auto;
   font-size: 3rem;
-  color: #ba195a;
+  color: #2873b9;
   font-style: bold;
 }
 .smartgaon-overview .causes__our--title {
@@ -8547,20 +8558,20 @@ priceDesc {
   top: 14rem;
   right: -10rem;
   background-color: #DCDCDC;
-  border: 3px solid #ba195a;
+  border: 3px solid #2873b9;
   border-radius: 1rem;
 }
 .smartgaon-overview .causes-img__img .causes-top-text .card .card-body {
   padding: 6rem 16rem 6rem 4rem;
 }
 .smartgaon-overview .causes-img__img .causes-top-text .card .card-body .card-title {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: 600;
   font-size: 3rem;
   padding: 2rem;
 }
 .smartgaon-overview .causes-img__img .causes-top-text .card .card-body .card-text {
-  color: #ba195a;
+  color: #2873b9;
   font-weight: 600;
   font-size: 2rem;
   padding: 1rem;
@@ -8571,7 +8582,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -8581,7 +8592,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .smartgaon-overview .causes-img__img .causes-top-text .card .action-button:hover, .smartgaon-overview .causes-img__img .causes-top-text .card .action-button:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 .smartgaon-overview .container-money {
   margin: 7rem auto;
@@ -8605,7 +8616,7 @@ priceDesc {
 }
 .smartgaon-overview .container-money .money .pink-point {
   line-height: 3.3rem;
-  color: #ba195a;
+  color: #2873b9;
   font-size: 2rem;
   font-weight: 600;
   margin-left: 2.2rem;
@@ -8616,7 +8627,7 @@ priceDesc {
   width: 10px;
   height: 10px;
   border-radius: 3px;
-  background-color: #ba195a;
+  background-color: #2873b9;
   position: absolute;
   left: 28px;
   margin-top: 10px;
@@ -8626,13 +8637,13 @@ priceDesc {
   margin: 2rem 0 2rem 0;
 }
 .smartgaon-overview .graph__per {
-  color: #ba195a;
+  color: #2873b9;
   font-size: 3rem;
   font-weight: 600;
   line-height: 5rem;
 }
 .smartgaon-overview .graph__text {
-  background-color: #BA195A;
+  background-color: #2873b9;
   width: 56px;
   height: 197px;
   border-radius: 0.7rem;
@@ -8694,7 +8705,7 @@ priceDesc {
   width: 48%;
 }
 .smartgaon-overview .card-flight h5 {
-  color: #ba195a;
+  color: #2873b9;
 }
 
 .causes-progress {
@@ -8713,7 +8724,7 @@ priceDesc {
   margin-bottom: 0.5rem;
 }
 .causes-progress h6 span {
-  color: #ba195a;
+  color: #2873b9;
 }
 .causes-progress--white {
   background-color: white;
@@ -8721,7 +8732,7 @@ priceDesc {
   border-radius: 2rem;
 }
 .causes-progress--pink {
-  background-color: #ba195a;
+  background-color: #2873b9;
   padding: 1.6rem;
   border-radius: 2rem;
   margin-top: -3.2rem;
@@ -8736,7 +8747,7 @@ priceDesc {
   color: white;
   border: 0 none;
   cursor: pointer;
-  background-color: #ba195a;
+  background-color: #2873b9;
   border-radius: 8px;
   margin: 2.2rem 5px 0;
   -webkit-transition: all 500ms ease-in-out;
@@ -8746,7 +8757,7 @@ priceDesc {
   transition: all 500ms ease-in-out;
 }
 .causes-progress .donate__btn:hover, .causes-progress .donate__btn:focus {
-  background-color: #e53b7f;
+  background-color: #5499da;
 }
 
 .rt-preloder .preloder-box {
@@ -8763,14 +8774,14 @@ priceDesc {
   line-height: 20px;
 }
 .white-menu .main-menu ul li a:hover {
-  color: #ba195a;
+  color: #2873b9;
   background: white;
   border-radius: 4px;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
 }
 
 .main-menu > ul > li.menu-item-has-children > ul.sub-menu > li:hover > a, .main-menu ul ul > li:hover > a {
-  background-color: #ba195a;
+  background-color: #2873b9;
 }
 
 .rt-sticky-active {

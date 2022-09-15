@@ -27,54 +27,54 @@
     border-radius: 3px 0 0 3px;
   
     .kt-sticky-toolbar__item {
-      margin: 0;
-      padding: 5px;
-      text-align: center;
-  
-      &.kt-sticky-toolbar__item--demo-toggle > a {
-        padding: 8px 0;
-        height: 130px;
-        -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-        writing-mode: vertical-rl;
-        -webkit-text-orientation: mixed;
-        text-orientation: mixed;
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: #4d5cf2;
-        letter-spacing: 2px;
-      }
-  
-      > a {
-        background: #f4f4f8;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        width: 30px;
-        height: 30px;
-        border-radius: 3px;
-        -webkit-transition: all .3s;
-        transition: all .3s;
-        &.logo_icon_1 {
-            img {
-                transform: rotate(90deg);
-                max-width: 100px;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+    
+        &.kt-sticky-toolbar__item--demo-toggle > a {
+            padding: 8px 0;
+            height: 130px;
+            -webkit-writing-mode: vertical-rl;
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+            -webkit-text-orientation: mixed;
+            text-orientation: mixed;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #4d5cf2;
+            letter-spacing: 2px;
+        }
+    
+        > a {
+            background: #f4f4f8;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 3px;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+            &.logo_icon_1 {
+                img {
+                    transform: rotate(90deg);
+                    max-width: 100px;
+                }
+            }
+            &.logo_icon_2 {
+                height: 90px;
+                img {
+                    transform: rotate(90deg);
+                    max-width: 140px;
+                }
             }
         }
-        &.logo_icon_2 {
-            height: 90px;
-            img {
-                transform: rotate(90deg);
-                max-width: 140px;
-            }
-        }
-      }
     }
 }
 
@@ -97,9 +97,9 @@
         margin-bottom: -18%;
         img {
             // width: 100%;
-            min-width: 400px;
+            min-width: 350px;
             margin-top: -40%;
-            margin-left: -35%;
+            margin-left: -20%;
         }
     }
 }
@@ -122,7 +122,7 @@
         width: auto;
         height: 54vh;
         top: -20px;
-        padding: 2rem 4rem;
+        padding: 1rem;
         background-image: url(assets/images/sun_rain_snow.png)
         // background-color: #eee;
         // background-image: -webkit-linear-gradient(8deg, #091b31 0%, #252c48 30%, #252c48 70%, #091b31 100%);
@@ -753,7 +753,7 @@
                     border-radius: 20px;
                     font-family: $Lato;
                     margin-bottom: 2rem;
-                    font-size: 3rem;
+                    font-size: 1.5rem;
                     font-weight: 500;
                     text-align: center;
                 }
@@ -767,7 +767,7 @@
                     h2 {
                         line-height: 36px;
                         text-align: center;
-                        font-size: 2.6rem;
+                        font-size: 1.35rem;
                         font-weight: 500;
                         color: $dark-font;
                         font-family: $Lato;
@@ -786,7 +786,7 @@
                         margin-right: 2rem;
                         padding-right: 4rem;
                         h4 {
-                            font-size: 2.6rem;
+                            font-size: 1.6rem;
                             color: $pink-color;
                         }
                         p {
