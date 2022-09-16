@@ -36,18 +36,119 @@
     }
 }
 
+.tbgprefix-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.45);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 600;
+        color: $text-white;
+    }
+}
+
+.eduTopics {
+    position: relative;
+    text-align: center;
+    margin-bottom: 46px;
+    
+    img {
+        width: auto;
+        height: 60px;
+        margin-bottom: 0.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: $cpurpel;
+    }
+
+    h5 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #505050;
+    }
+}
+
 .educ-overview {
     position: relative;
     &--advnt {
         position: relative;
         .rt-section-title-wrapper {
             .rt-section-title {
+                font-size: 38px;
+                color: $pink-color;
+                margin-bottom: 1rem;
+            }
+            p {
                 font-size: 2rem;
                 color: $cpurpel;
+            }
+        }
+    }
+    &--points {
+        position: relative;
+        .rt-section-title-wrapper {
+            .rt-section-title {
+                font-size: 38px;
+                color: $pink-color;
                 margin-bottom: 1rem;
             }
             p {
                 font-size: 1.4rem;
+            }
+        }
+
+        .pt {
+            position: relative;
+            display: block;
+            padding: 1rem 0;
+
+            &__flex {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                margin-bottom: 1.4rem;
+
+                span {
+                    min-width: 60px;
+                    width: 60px;
+                    height: 60px;
+                    background-color: $pink-color;
+                    border-radius: 50%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 1rem;
+
+                    img {
+                        width: 30px;
+                        margin: 0;
+                    }
+                }
+
+                p {
+                    font-size: 22px;
+                    font-weight: 500;
+
+                    @include bp-md-down {
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }
@@ -98,6 +199,15 @@
     }
     &--content {
         // padding-left: 3rem;
+        h1 {
+            &.rt-section-title {
+                font-size: 8rem;
+
+                @include bp-md-down {
+                    font-size: 6rem;
+                }
+            }
+        }
         .rt-section-title {
             color: $cpurpel;
             font-size: 38px;
@@ -114,6 +224,36 @@
             font-size: 16px;
             line-height: 28px;
             margin-bottom: 1.2rem;
+            margin-bottom: 2.2rem;
+        }
+
+        .pt {
+            position: relative;
+            display: block;
+            padding: 1rem 0;
+
+            &__flex {
+                display: flex;
+                align-items: self-start;
+                justify-content: start;
+                margin-bottom: 0.4rem;
+
+                img {
+                    width: 26px;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 15px;
+                    line-height: 22px;
+                    font-weight: 500;
+                    margin-left: 1rem;
+
+                    @include bp-md-down {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
     &--coun {
@@ -236,6 +376,7 @@
                 position: absolute;
                 bottom: 10px;
                 left: 16px;
+                min-height: 54px;
                 font-size: 1.2rem;
                 color: white;
             }
@@ -278,6 +419,82 @@
             box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
             .tiny-text {
                 text-decoration: underline;
+            }
+        }
+    }
+    &--slide {
+        position: relative;
+
+        h1 {
+            &.rt-section-title {
+                font-size: 8rem;
+
+                @include bp-md-down {
+                    font-size: 6rem;
+                }
+            }
+        }
+        .rt-section-title {
+            color: $pink-color;
+            font-size: 38px;
+            // font-family: $Lato;
+            margin-bottom: 0.8rem;
+        }
+        h4 {
+            color: $dark-font;
+            font-family: $Lato;
+            font-size: 1.8rem;
+            margin-bottom: 2.2rem;
+        }
+
+        .card-padding {
+            padding: 0 0.8rem;
+            .card-things {
+                box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
+                transition: 0.3s;
+                border-radius: 2rem;
+                margin-bottom: 2.4rem;
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+                border: 1px solid #dcdcdc;
+                background-color: white;
+
+                img {
+                    width: 50%;
+                    object-fit: cover;
+                }
+            
+                .content {
+                    display: block;
+                    padding: 6rem;
+
+                    @include bp-md-down {
+                        padding: 4rem;
+                    }
+                    h5 {
+                        font-size: 2.2rem;
+                        font-weight: 600;
+                        margin-bottom: 0.1rem;
+                        color: $pink-color;
+                    }
+                    p {
+                        font-weight: 400;
+                        color: #a9a9a9;
+                    }
+            
+                    .tiny-text {
+                        font-size: 13px;
+                        color: #5f5f5f;
+                        i {
+                            padding-right: 0.5rem;
+                        }
+                    }
+                }
+              
+                &:hover {
+                    box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
+                }
             }
         }
     }

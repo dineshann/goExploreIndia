@@ -3,6 +3,7 @@
 @import "base/_mixins.scss";
 @import "base/_general.scss";
 @import "base/_typography.scss";
+
 // Layout
 @import "layout/custApp";
 @import "layout/goexploreindia";
@@ -16,6 +17,20 @@
 @import "layout/education";
 @import "layout/handicraft";
 @import "layout/smartgaon";
+
+
+@import "views/home";
+@import "views/about";
+@import "views/slider";
+@import "views/searchBox";
+@import "views/stateView";
+@import "views/otherSrv";
+@import "views/geiSpl";
+@import "views/popularSrv";
+@import "views/seasons";
+@import "views/videoSec";
+@import "views/geiTastes";
+@import "views/searchResult";
 
 // Preloader
 .rt-preloder {

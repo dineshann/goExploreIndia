@@ -17,6 +17,15 @@ $all: all 500ms ease-in-out;
   transform: $transform;
 }
 
+// Box-shadow 
+@mixin box-shadow($shadowvalue) {
+  -webkit-webkit-box-shadow: $shadowvalue;
+  -moz-webkit-box-shadow: $shadowvalue;
+  -ms-webkit-box-shadow: $shadowvalue;
+  -o-webkit-box-shadow: $shadowvalue;
+  box-shadow: $shadowvalue;
+}
+
 // mixin for content top
 @mixin post($absolute,$left,$top,$width,$height) {
   position: $absolute;
@@ -196,5 +205,53 @@ $all: all 500ms ease-in-out;
   background: -ms-linear-gradient(left, $from 0%, $to $stop);
   background: linear-gradient(to right, $from 0%, $to $stop);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 );
+}
+
+@mixin xl-down {
+  @media only screen and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin lg-down {
+  @media only screen and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin lg-up {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin md-down {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin md-updown {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin md-up {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin sm-down {
+  @media only screen and (max-width: 575px) {
+    @content;
+  }
+}
+
+@mixin sm-up {
+  @media only screen and (min-width: 576px) {
+    @content;
+  }
 }
 
