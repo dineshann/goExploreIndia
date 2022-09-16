@@ -42,12 +42,12 @@
         position: relative;
         .rt-section-title-wrapper {
             .rt-section-title {
-                font-size: 38px;
-                color: $pink-color;
+                font-size: 2rem;
+                color: $cpurpel;
                 margin-bottom: 1rem;
             }
             p {
-                font-size: 2rem;
+                font-size: 1.4rem;
             }
         }
     }
@@ -99,7 +99,7 @@
     &--content {
         // padding-left: 3rem;
         .rt-section-title {
-            color: $pink-color;
+            color: $cpurpel;
             font-size: 38px;
             // font-family: $Lato;
             margin-bottom: 0.8rem;
@@ -163,7 +163,7 @@
             a {
                 margin-right: 1rem;
                 display: inline-block;
-                color: $pink-color;
+                color: $cpurpel;
                 font-size: 1.1rem;
                 padding: 0.4rem 1rem;
                 border-radius: 20px;
@@ -171,10 +171,10 @@
                 @include transition($all);
                 margin-bottom: 1rem;
                 &:hover {
-                    background-color: $pink-color;
+                    background-color: $cpurpel;
                     color: $white;
                     box-shadow: $shadow-l;
-                    border-color: darken($pink-color, 20%);
+                    border-color: darken($cpurpel, 20%);
                 }                
             }
         }
@@ -221,7 +221,7 @@
         position: relative;
         box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
         transition: 0.3s;
-        border-radius: 2rem;
+        border-radius: 1rem;
         overflow: hidden;
         border: 1px solid #dcdcdc;
         background-color: white;

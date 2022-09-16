@@ -3739,7 +3739,7 @@ priceDesc {
   position: relative;
   margin-top: 0;
   box-shadow: inset 0px 0px 120px -40px #434f53;
-  border-radius: 2rem;
+  border-radius: 1rem;
   background-color: rgba(241, 241, 241, 0.85);
 }
 .smartDT .searchform fieldset {
@@ -4003,14 +4003,14 @@ priceDesc {
   justify-content: space-between;
 }
 .entry-header .entry-title {
-  font-size: 4rem;
+  font-size: 2.4rem;
   margin-bottom: 0;
-  color: #2873b9;
+  color: #693184;
   text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
 }
 .entry-header .entry-title-sm {
-  font-size: 2.4rem;
-  color: #2873b9;
+  font-size: 1.8rem;
+  color: #693184;
   display: flex;
 }
 .entry-header a {
@@ -4034,7 +4034,7 @@ priceDesc {
 .card-padding .card-things {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -4067,7 +4067,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0.3rem 2.2rem;
@@ -4125,7 +4125,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0.3rem 2.2rem;
@@ -4193,7 +4193,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0 2.2rem;
@@ -4276,7 +4276,7 @@ priceDesc {
 .card-things {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -4311,7 +4311,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0.3rem 2.2rem;
@@ -4370,7 +4370,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin-bottom: 2.2rem;
@@ -4437,7 +4437,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0 2.2rem;
@@ -4752,7 +4752,7 @@ priceDesc {
 .MultiCarousel .MultiCarousel-inner .item .card-things {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-right: 2%;
   margin-bottom: 2%;
   overflow: hidden;
@@ -4786,7 +4786,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0.3rem;
@@ -4844,7 +4844,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   display: block;
@@ -4911,7 +4911,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0.3rem;
@@ -6231,8 +6231,8 @@ priceDesc {
 }
 .tripSummary__footer--info__heading {
   text-align: center;
-  color: #2873b9;
-  font-size: 1.2rem;
+  color: #693184;
+  font-size: 2rem;
   margin-bottom: 0.25rem;
 }
 .tripSummary__footer--info__vpoint {
@@ -6599,8 +6599,8 @@ priceDesc {
   margin-top: 4rem;
 }
 .wedding-sec--formSec__heading h2 {
-  color: #2873b9;
-  font-size: 1.8rem;
+  color: #693184;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
   font-weight: 600;
   font-family: "Lato", sans-serif;
@@ -6639,7 +6639,7 @@ priceDesc {
 .wedding-sec .card-padding .indian-wedding {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -6689,7 +6689,7 @@ priceDesc {
 .wedding-sec .card-padding .popular-search {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -6745,7 +6745,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0 2.2rem;
@@ -6836,7 +6836,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   background-color: white;
@@ -6898,7 +6898,7 @@ priceDesc {
 .wedding-sec .card-padding .magnificent-wedding {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -7105,7 +7105,7 @@ priceDesc {
 .medtour-overview .card-padding .medtour-destn {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -7439,7 +7439,7 @@ priceDesc {
 .restudy-overview .study-guide {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -7487,7 +7487,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   background-color: white;
@@ -7681,12 +7681,12 @@ priceDesc {
   position: relative;
 }
 .educ-overview--advnt .rt-section-title-wrapper .rt-section-title {
-  font-size: 38px;
-  color: #2873b9;
+  font-size: 2rem;
+  color: #693184;
   margin-bottom: 1rem;
 }
 .educ-overview--advnt .rt-section-title-wrapper p {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .educ-overview--steps {
   position: relative;
@@ -7741,7 +7741,7 @@ priceDesc {
   }
 }
 .educ-overview--content .rt-section-title {
-  color: #2873b9;
+  color: #693184;
   font-size: 38px;
   margin-bottom: 0.8rem;
 }
@@ -7809,7 +7809,7 @@ priceDesc {
 .educ-overview--coun__tag a {
   margin-right: 1rem;
   display: inline-block;
-  color: #2873b9;
+  color: #693184;
   font-size: 1.1rem;
   padding: 0.4rem 1rem;
   border-radius: 20px;
@@ -7822,10 +7822,10 @@ priceDesc {
   margin-bottom: 1rem;
 }
 .educ-overview--coun__tag a:hover {
-  background-color: #2873b9;
+  background-color: #693184;
   color: #ffffff;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
-  border-color: #163f65;
+  border-color: #2e153a;
 }
 .educ-overview--coun:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -7874,7 +7874,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   background-color: white;
@@ -8019,7 +8019,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   margin: 0 0 2.2rem;
@@ -8102,7 +8102,7 @@ priceDesc {
 .handicraft-sec .card-padding .pro-cat {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -8157,7 +8157,7 @@ priceDesc {
 .handicraft-sec .card-padding .magnificent-wedding {
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 2.4rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -8431,7 +8431,7 @@ priceDesc {
   position: relative;
   box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
   transition: 0.3s;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
   border: 1px solid #dcdcdc;
   background-color: white;
@@ -8729,12 +8729,12 @@ priceDesc {
 .causes-progress--white {
   background-color: white;
   padding: 1.6rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 .causes-progress--pink {
   background-color: #2873b9;
   padding: 1.6rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-top: -3.2rem;
   width: 30%;
 }

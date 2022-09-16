@@ -122,7 +122,7 @@ $colorgrey:#696969;
         position: relative;
         box-shadow: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
         transition: 0.3s;
-        border-radius: 2rem;
+        border-radius: 1rem;
         overflow: hidden;
         border: 1px solid #dcdcdc;
         background-color: white;
@@ -434,12 +434,12 @@ $colorgrey:#696969;
     &--white{
         background-color: white;
         padding: 1.6rem;
-        border-radius: 2rem;
+        border-radius: 1rem;
     }
     &--pink{
         background-color: $pink-color;
         padding: 1.6rem;
-        border-radius: 2rem;
+        border-radius: 1rem;
         margin-top: -3.2rem;
         width: 30%;
     }
