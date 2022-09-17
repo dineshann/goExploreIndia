@@ -147,7 +147,7 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                background-color: rgb(40 115 185 / 70%);
+                background-color: rgb(105 49 132 / 65%);
                 h5 {
                     font-size: 1.2rem;
                     font-weight: 100;
@@ -234,15 +234,13 @@
                 margin-bottom: 1rem;
                 h5 {
                     margin-bottom: 0;
-                    color: $pink-color;
-                    text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+                    color: $cdark;
                     font-size: 1.2rem;
-                    color: $pink-color;
                 }
                 a {
                     text-decoration: none;
                     color: #fdfeff;
-                    background-color: $pink-color;
+                    background-color: $cblue;
                     border-radius: 20px;
                     font-size: 14px;
                     padding: 0 1rem;
@@ -257,7 +255,7 @@
                         white-space: nowrap;
                     }
                     &:hover {
-                        background-color: #151932;
+                        background-color: $cpurpel;
                     }
                 }
             }
@@ -295,7 +293,7 @@
                     left: 0;
                     width: 100%;
                     height: 60px;
-                    background: linear-gradient(0deg, rgba(186, 25, 90, 0.85) 0%, rgba(186, 25, 90, 0.6) 35%, rgba(186, 25, 90, 0) 100%);
+                    background: linear-gradient(0deg, rgba(105, 49, 132, 0.85) 0%, rgba(105, 49, 132, 0.6) 35%, rgba(105, 49, 132, 0) 100%);
                 }
             }
               
@@ -349,7 +347,7 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                background-color: rgb(40 115 185 / 70%);
+                background-color: rgb(105 49 132 / 65%);
                 h5 {
                     font-size: 1.2rem;
                     font-weight: 100;

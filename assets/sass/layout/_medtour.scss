@@ -78,7 +78,7 @@
     &--content {
         padding-left: 3rem;
         .rt-section-title {
-            color: $pink-color;
+            color: $cpurpel;
             font-size: 48px;
         }
         p {
@@ -115,10 +115,11 @@
         .rt-section-title-wrapper {
             .rt-section-title {
                 font-size: 36px;
-                color: $pink-color;
+                color: $cpurpel;
                 margin-bottom: 1rem;
             }
             p {
+                color: $cdark;
                 font-size: 1.2rem;
             }
         }
@@ -198,11 +199,11 @@
         .entry-title {
             font-size: 1.8rem;
             margin-bottom: 0;
-            color: $pink-color;
-            text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+            color: $cpurpel;
+            // text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
             &-sm {
                 font-size: 2.4rem;
-                color: $pink-color;
+                color: $cpurpel;
             }
         }
         img{

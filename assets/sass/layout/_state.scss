@@ -41,11 +41,11 @@
     .entry-title {
         font-size: 4rem;
         margin-bottom: 0;
-        color: $pink-color;
-        text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+        color: $cpurpel;
+        // text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
         &-sm {
             font-size: 2.4rem;
-            color: $pink-color;
+            color: $cpurpel;
         }
     }
 }
@@ -60,7 +60,7 @@
         font-size: 2.4rem;
         margin-bottom: 0;
         color: $cpurpel;
-        text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+        // text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
         &-sm {
             font-size: 1.8rem;
             color: $cpurpel;
@@ -293,15 +293,14 @@
             margin-bottom: 1rem;
             h5 {
                 margin-bottom: 0;
-                color: $pink-color;
-                text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+                color: $cdark;
+                // text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
                 font-size: 1.2rem;
-                color: $pink-color;
             }
             a {
                 text-decoration: none;
                 color: #fdfeff;
-                background-color: #151932;
+                background-color: $cblue;
                 border-radius: 20px;
                 font-size: 13px;
                 padding: 0 1rem;
@@ -316,7 +315,7 @@
                     white-space: nowrap;
                 }
                 &:hover {
-                    background-color: $pink-color;
+                    background-color: $cpurpel;
                 }
             }
         }
@@ -536,15 +535,13 @@
         margin-bottom: 1rem;
         h5 {
             margin-bottom: 0;
-            color: $pink-color;
-            text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+            color: $cdark;
             font-size: 1.2rem;
-            color: $pink-color;
         }
         a {
             text-decoration: none;
             color: #fdfeff;
-            background-color: #151932;
+            background-color: $cblue;
             border-radius: 20px;
             font-size: 13px;
             padding: 0 1rem;
@@ -559,7 +556,7 @@
                 white-space: nowrap;
             }
             &:hover {
-                background-color: $pink-color;
+                background-color: $cpurpel;
             }
         }
     }

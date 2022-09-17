@@ -3987,12 +3987,11 @@ priceDesc {
 .main-header .entry-title {
   font-size: 4rem;
   margin-bottom: 0;
-  color: #2873b9;
-  text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+  color: #693184;
 }
 .main-header .entry-title-sm {
   font-size: 2.4rem;
-  color: #2873b9;
+  color: #693184;
 }
 
 .entry-header {
@@ -4006,7 +4005,6 @@ priceDesc {
   font-size: 2.4rem;
   margin-bottom: 0;
   color: #693184;
-  text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
 }
 .entry-header .entry-title-sm {
   font-size: 1.8rem;
@@ -4239,15 +4237,13 @@ priceDesc {
 }
 .card-padding .card-hc .hc-pb h5 {
   margin-bottom: 0;
-  color: #2873b9;
-  text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+  color: #141414;
   font-size: 1.2rem;
-  color: #2873b9;
 }
 .card-padding .card-hc .hc-pb a {
   text-decoration: none;
   color: #fdfeff;
-  background-color: #151932;
+  background-color: #2873b9;
   border-radius: 20px;
   font-size: 13px;
   padding: 0 1rem;
@@ -4267,7 +4263,7 @@ priceDesc {
   white-space: nowrap;
 }
 .card-padding .card-hc .hc-pb a:hover {
-  background-color: #2873b9;
+  background-color: #693184;
 }
 .card-padding .card-hc:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -4483,15 +4479,13 @@ priceDesc {
 }
 .card-hc .hc-pb h5 {
   margin-bottom: 0;
-  color: #2873b9;
-  text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+  color: #141414;
   font-size: 1.2rem;
-  color: #2873b9;
 }
 .card-hc .hc-pb a {
   text-decoration: none;
   color: #fdfeff;
-  background-color: #151932;
+  background-color: #2873b9;
   border-radius: 20px;
   font-size: 13px;
   padding: 0 1rem;
@@ -4511,7 +4505,7 @@ priceDesc {
   white-space: nowrap;
 }
 .card-hc .hc-pb a:hover {
-  background-color: #2873b9;
+  background-color: #693184;
 }
 .card-hc:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -5126,7 +5120,7 @@ priceDesc {
   font-family: "Lato", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
-  color: #686e78;
+  color: #693184;
   padding-top: 0.8rem;
 }
 .tripSummary .card .card-header a {
@@ -6710,7 +6704,7 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(40, 115, 185, 0.7);
+  background-color: rgba(105, 49, 132, 0.65);
 }
 .wedding-sec .card-padding .popular-search .container h5 {
   font-size: 1.2rem;
@@ -6799,10 +6793,8 @@ priceDesc {
 }
 .wedding-sec .card-padding .jewelry-pick .hc-pb h5 {
   margin-bottom: 0;
-  color: #2873b9;
-  text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+  color: #141414;
   font-size: 1.2rem;
-  color: #2873b9;
 }
 .wedding-sec .card-padding .jewelry-pick .hc-pb a {
   text-decoration: none;
@@ -6827,7 +6819,7 @@ priceDesc {
   white-space: nowrap;
 }
 .wedding-sec .card-padding .jewelry-pick .hc-pb a:hover {
-  background-color: #151932;
+  background-color: #693184;
 }
 .wedding-sec .card-padding .jewelry-pick:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -6862,7 +6854,7 @@ priceDesc {
   left: 0;
   width: 100%;
   height: 60px;
-  background: linear-gradient(0deg, rgba(186, 25, 90, 0.85) 0%, rgba(186, 25, 90, 0.6) 35%, rgba(186, 25, 90, 0) 100%);
+  background: linear-gradient(0deg, rgba(105, 49, 132, 0.85) 0%, rgba(105, 49, 132, 0.6) 35%, rgba(105, 49, 132, 0) 100%);
 }
 .wedding-sec .card-padding .wedding-theme .details-sec {
   display: block;
@@ -6919,7 +6911,7 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(40, 115, 185, 0.7);
+  background-color: rgba(105, 49, 132, 0.65);
 }
 .wedding-sec .card-padding .magnificent-wedding .container h5 {
   font-size: 1.2rem;
@@ -7040,7 +7032,7 @@ priceDesc {
   padding-left: 3rem;
 }
 .medtour-overview--content .rt-section-title {
-  color: #2873b9;
+  color: #693184;
   font-size: 48px;
 }
 .medtour-overview--content p {
@@ -7073,10 +7065,11 @@ priceDesc {
 }
 .medtour-overview--advnt .rt-section-title-wrapper .rt-section-title {
   font-size: 36px;
-  color: #2873b9;
+  color: #693184;
   margin-bottom: 1rem;
 }
 .medtour-overview--advnt .rt-section-title-wrapper p {
+  color: #141414;
   font-size: 1.2rem;
 }
 .medtour-overview--content {
@@ -7160,12 +7153,11 @@ priceDesc {
 .medtour-overview .med-header .entry-title {
   font-size: 1.8rem;
   margin-bottom: 0;
-  color: #2873b9;
-  text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
+  color: #693184;
 }
 .medtour-overview .med-header .entry-title-sm {
   font-size: 2.4rem;
-  color: #2873b9;
+  color: #693184;
 }
 .medtour-overview .med-header img {
   width: 80px;
@@ -7362,7 +7354,7 @@ priceDesc {
 }
 .restudy-overview--advnt .rt-section-title-wrapper .rt-section-title {
   font-size: 38px;
-  color: #2873b9;
+  color: #693184;
   margin-bottom: 1rem;
 }
 .restudy-overview--advnt .rt-section-title-wrapper p {
@@ -7555,7 +7547,7 @@ priceDesc {
   position: relative;
 }
 .restudy-dprt--content .rt-section-title {
-  color: #2873b9;
+  color: #693184;
   font-size: 36px;
   margin-bottom: 0.8rem;
 }
@@ -7724,23 +7716,24 @@ priceDesc {
 }
 .educ-overview--advnt .rt-section-title-wrapper .rt-section-title {
   font-size: 38px;
-  color: #2873b9;
+  color: #693184;
   margin-bottom: 1rem;
 }
 .educ-overview--advnt .rt-section-title-wrapper p {
   font-size: 2rem;
-  color: #693184;
+  color: #141414;
 }
 .educ-overview--points {
   position: relative;
 }
 .educ-overview--points .rt-section-title-wrapper .rt-section-title {
   font-size: 38px;
-  color: #2873b9;
+  color: #693184;
   margin-bottom: 1rem;
 }
 .educ-overview--points .rt-section-title-wrapper p {
   font-size: 1.4rem;
+  color: #141414;
 }
 .educ-overview--points .pt {
   position: relative;
@@ -7831,6 +7824,7 @@ priceDesc {
   }
 }
 .educ-overview--content h1.rt-section-title {
+  color: #693184;
   font-size: 8rem;
 }
 @media only screen and (max-width: 767px) {
@@ -8067,6 +8061,7 @@ priceDesc {
   position: relative;
 }
 .educ-overview--slide h1.rt-section-title {
+  color: #693184;
   font-size: 8rem;
 }
 @media only screen and (max-width: 767px) {
@@ -8075,7 +8070,7 @@ priceDesc {
   }
 }
 .educ-overview--slide .rt-section-title {
-  color: #2873b9;
+  color: #693184;
   font-size: 38px;
   margin-bottom: 0.8rem;
 }
@@ -8145,7 +8140,7 @@ priceDesc {
 }
 
 .testimonials-area.c-testimonials-area .rt-section-title-wrapper .rt-section-title {
-  color: #2873b9;
+  color: #693184;
   font-size: 2.4rem;
 }
 .testimonials-area.c-testimonials-area .rt-section-title-wrapper .rt-section-title span {
@@ -8261,15 +8256,13 @@ priceDesc {
 }
 .handicraft-sec .card-padding .card-hc .hc-pb h5 {
   margin-bottom: 0;
-  color: #2873b9;
-  text-shadow: 0px 2px 6px rgba(186, 25, 90, 0.24);
-  font-size: 1rem;
-  color: #2873b9;
+  color: #141414;
+  font-size: 1.1rem;
 }
 .handicraft-sec .card-padding .card-hc .hc-pb a {
   text-decoration: none;
   color: #fdfeff;
-  background-color: #151932;
+  background-color: #2873b9;
   border-radius: 20px;
   font-size: 13px;
   padding: 0 1rem;
@@ -8289,7 +8282,7 @@ priceDesc {
   white-space: nowrap;
 }
 .handicraft-sec .card-padding .card-hc .hc-pb a:hover {
-  background-color: #2873b9;
+  background-color: #693184;
 }
 .handicraft-sec .card-padding .card-hc:hover {
   box-shadow: 0 32px 26px -26px rgba(80, 80, 80, 0.4);
@@ -8318,7 +8311,7 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(40, 115, 185, 0.7);
+  background-color: rgba(105, 49, 132, 0.65);
 }
 .handicraft-sec .card-padding .pro-cat .container h5 {
   font-size: 1.2rem;
@@ -8373,7 +8366,7 @@ priceDesc {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(40, 115, 185, 0.7);
+  background-color: rgba(105, 49, 132, 0.65);
 }
 .handicraft-sec .card-padding .magnificent-wedding .container h5 {
   font-size: 2.2rem;
@@ -8563,7 +8556,7 @@ priceDesc {
 }
 .smartgaon-overview--advnt .rt-section-title-wrapper .rt-section-title {
   font-size: 48px;
-  color: #2873b9;
+  color: #693184;
   margin-bottom: 1rem;
 }
 .smartgaon-overview--advnt .rt-section-title-wrapper p {
@@ -8595,7 +8588,7 @@ priceDesc {
   min-height: 125px;
 }
 .smartgaon-overview--content .rt-section-title {
-  color: #2873b9;
+  color: #693184;
   font-size: 5rem;
   margin-bottom: 3rem;
 }

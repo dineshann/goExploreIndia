@@ -90,12 +90,12 @@
         .rt-section-title-wrapper {
             .rt-section-title {
                 font-size: 38px;
-                color: $pink-color;
+                color: $cpurpel;
                 margin-bottom: 1rem;
             }
             p {
                 font-size: 2rem;
-                color: $cpurpel;
+                color: $cdark;
             }
         }
     }
@@ -104,11 +104,12 @@
         .rt-section-title-wrapper {
             .rt-section-title {
                 font-size: 38px;
-                color: $pink-color;
+                color: $cpurpel;
                 margin-bottom: 1rem;
             }
             p {
                 font-size: 1.4rem;
+                color: $cdark;
             }
         }
 
@@ -201,6 +202,7 @@
         // padding-left: 3rem;
         h1 {
             &.rt-section-title {
+                color: $cpurpel;
                 font-size: 8rem;
 
                 @include bp-md-down {
@@ -427,6 +429,7 @@
 
         h1 {
             &.rt-section-title {
+                color: $cpurpel;
                 font-size: 8rem;
 
                 @include bp-md-down {
@@ -435,7 +438,7 @@
             }
         }
         .rt-section-title {
-            color: $pink-color;
+            color: $cpurpel;
             font-size: 38px;
             // font-family: $Lato;
             margin-bottom: 0.8rem;
@@ -519,7 +522,7 @@
     &.c-testimonials-area {
         .rt-section-title-wrapper {
             .rt-section-title {
-                color: $pink-color;
+                color: $cpurpel;
                 font-size: 2.4rem;
                 span {
                     color: lighten($pink-color, 20%);
