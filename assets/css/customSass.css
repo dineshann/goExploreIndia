@@ -1,27 +1,7 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap&subset=latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
-/* container 450px*/
-/* container 300px*/
-@media only screen and (max-width: 575px) {
-  .container {
-    max-width: 450px;
-  }
-}
-@media only screen and (max-width: 479px) {
-  .container {
-    max-width: 450px;
-  }
-}
-@media (max-width: 1920px) and (min-width: 1400px) {
-  .container {
-    max-width: 1200px;
-  }
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap);
+@import url("https://use.typekit.net/vhw3wot.css");
 /*-------------------------------------------------------*/
 /* General
 /*-------------------------------------------------------*/
@@ -30,6 +10,9 @@ body {
   padding: 0;
   font-family: "Lato", sans-serif;
   color: #444C5E;
+}
+body p {
+  font-family: "Lato", sans-serif;
 }
 body::-webkit-scrollbar-track {
   background-color: #ffffff;
@@ -53,10 +36,10 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: ropa-mix-pro, sans-serif;
   margin-top: 0;
   margin-bottom: 10px;
-  color: #1947B0;
+  color: #2873b9;
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: -0.025em;
@@ -1162,7 +1145,7 @@ priceDesc {
 
 .editroom {
   float: right;
-  color: #1947B0;
+  color: #2873b9;
   cursor: pointer;
   padding: 0.1rem 0.75rem;
   border-radius: 4px;
@@ -4043,7 +4026,7 @@ priceDesc {
 }
 .card-padding .card-things .container h5 {
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -4102,7 +4085,7 @@ priceDesc {
 }
 .card-padding .card-video .details-sec h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 110px;
@@ -4158,7 +4141,7 @@ priceDesc {
 }
 .card-padding .card-destination .details-sec h5 {
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -4215,7 +4198,7 @@ priceDesc {
 }
 .card-padding .card-hc .details-sec h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 50px;
@@ -4283,7 +4266,7 @@ priceDesc {
 }
 .card-things .container h5 {
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -4344,7 +4327,7 @@ priceDesc {
 }
 .card-video .details-sec h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 110px;
@@ -4400,7 +4383,7 @@ priceDesc {
 }
 .card-destination .details-sec h5 {
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -4457,7 +4440,7 @@ priceDesc {
 }
 .card-hc .details-sec h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 50px;
@@ -4758,7 +4741,7 @@ priceDesc {
 }
 .MultiCarousel .MultiCarousel-inner .item .card-things .container h5 {
   font-size: 2.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -4817,7 +4800,7 @@ priceDesc {
 }
 .MultiCarousel .MultiCarousel-inner .item .card-video .details-sec h5 {
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 110px;
@@ -4873,7 +4856,7 @@ priceDesc {
 }
 .MultiCarousel .MultiCarousel-inner .item .card-destination .details-sec h5 {
   font-size: 2.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -4929,7 +4912,7 @@ priceDesc {
 }
 .MultiCarousel .MultiCarousel-inner .item .card-hc .details-sec h5 {
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 50px;
@@ -5337,25 +5320,25 @@ priceDesc {
   margin-bottom: 0.6rem;
 }
 .tripSummary .card .travel-route .destination--odd {
-  background-color: #d0dcf8;
+  background-color: #e6f0fa;
 }
 .tripSummary .card .travel-route .destination--odd .travel-route__item--date {
-  color: #1947B0;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--odd .travel-route__item--icon span {
-  color: #1947B0;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--odd .travel-route__item--icon i {
-  color: #1947B0;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--odd .travel-route__item--midicon span {
-  background-color: #1947B0;
+  background-color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--odd .travel-route__item--midicon i {
-  background-color: #1947B0;
+  background-color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--odd .travel-origin--name__destination span {
-  color: #1947B0;
+  color: #2873b9;
 }
 .tripSummary .card .travel-route .destination--even {
   background-color: #e6f0fa;
@@ -6073,7 +6056,7 @@ priceDesc {
   background-color: #2873b9;
 }
 .tripSummary__insuSelected__switcher .switch input:focus + .slider {
-  box-shadow: 0 2px 4px -2px #1947B0;
+  box-shadow: 0 2px 4px -2px #2873b9;
 }
 .tripSummary__insuSelected__switcher .switch input:checked + .slider:before {
   -webkit-transform: translateX(22px);
@@ -6193,7 +6176,7 @@ priceDesc {
   background-color: #2873b9;
 }
 .tripSummary__insurances .table .insurances__switch .switch input:focus + .slider {
-  box-shadow: 0 2px 4px -2px #1947B0;
+  box-shadow: 0 2px 4px -2px #2873b9;
 }
 .tripSummary__insurances .table .insurances__switch .switch input:checked + .slider:before {
   -webkit-transform: translateX(22px);
@@ -6388,7 +6371,7 @@ priceDesc {
   border: 1px solid #acb2b8;
 }
 .travelroute-heading.odd {
-  background-color: #d0dcf8;
+  background-color: #e6f0fa;
 }
 .travelroute-heading.even {
   background-color: #e6f0fa;
@@ -6499,7 +6482,7 @@ priceDesc {
   background-color: #2873b9;
 }
 .travelroute-heading__switcher .switch input:focus + .slider {
-  box-shadow: 0 2px 4px -2px #1947B0;
+  box-shadow: 0 2px 4px -2px #2873b9;
 }
 .travelroute-heading__switcher .switch input:checked + .slider:before {
   -webkit-transform: translateX(22px);
@@ -6653,7 +6636,7 @@ priceDesc {
 }
 .wedding-sec .card-padding .indian-wedding .container h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 90px;
@@ -6708,7 +6691,7 @@ priceDesc {
 }
 .wedding-sec .card-padding .popular-search .container h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: white;
   margin-bottom: 0.75rem;
@@ -6762,7 +6745,7 @@ priceDesc {
 }
 .wedding-sec .card-padding .jewelry-pick .details-sec h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.5rem;
   color: #5f5f5f;
 }
@@ -6862,7 +6845,7 @@ priceDesc {
 }
 .wedding-sec .card-padding .wedding-theme .details-sec h5 {
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -6915,7 +6898,7 @@ priceDesc {
 }
 .wedding-sec .card-padding .magnificent-wedding .container h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: white;
   margin-bottom: 0.75rem;
@@ -7118,7 +7101,7 @@ priceDesc {
 }
 .medtour-overview .card-padding .medtour-destn .container h5 {
   font-size: 1.6rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.5rem;
   color: #5f5f5f;
 }
@@ -7451,7 +7434,7 @@ priceDesc {
 }
 .restudy-overview .study-guide .container h5 {
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.4rem;
   color: #5f5f5f;
 }
@@ -7517,7 +7500,7 @@ priceDesc {
 }
 .restudy-overview--blog .details-sec h5 {
   font-size: 2.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -8032,7 +8015,7 @@ priceDesc {
 }
 .educ-overview--blog .details-sec h5 {
   font-size: 2.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -8234,7 +8217,7 @@ priceDesc {
 }
 .handicraft-sec .card-padding .card-hc .details-sec h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
   min-height: 50px;
@@ -8315,7 +8298,7 @@ priceDesc {
 }
 .handicraft-sec .card-padding .pro-cat .container h5 {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: white;
   margin-bottom: 0.75rem;
@@ -8370,7 +8353,7 @@ priceDesc {
 }
 .handicraft-sec .card-padding .magnificent-wedding .container h5 {
   font-size: 2.2rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: white;
   margin-bottom: 0.75rem;
@@ -8657,7 +8640,7 @@ priceDesc {
 }
 .smartgaon-overview--blog .details-sec h5 {
   font-size: 2.4rem;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 0.1rem;
   color: #5f5f5f;
 }
@@ -9128,19 +9111,39 @@ table td {
   z-index: 2;
   width: fit-content;
   margin: 0 auto -24px;
+  padding: 0.65rem;
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #693184;
+  background: #351942;
+  /* Old browsers */
+  background: -moz-linear-gradient(bottom, #351942 0%, #693184 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #351942), color-stop(100%, #693184));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(bottom, #351942 0%, #693184 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(bottom, #351942 0%, #693184 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(bottom, #351942 0%, #693184 100%);
+  /* IE10+ */
+  background: linear-gradient(to top, #351942 0%, #693184 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#000000",GradientType=0 );
+  /* IE6-9 */
   border-radius: 6px;
   box-shadow: 0px 6px 48px -30px rgba(0, 0, 0, 0.8);
 }
 .geiSearch__btn a {
   display: grid;
-  color: #141414;
+  color: #ffffff;
+  font-family: ropa-mix-pro, sans-serif;
+  text-transform: uppercase;
   min-width: 90px;
   max-width: 90px;
+  margin: 0 0.25rem;
   border-radius: 6px;
-  background: #ffffff;
+  background: transparent;
   padding: 0.5rem 1.2rem;
   text-align: center;
   text-decoration: none;
@@ -9148,15 +9151,35 @@ table td {
 .geiSearch__btn a i {
   font-size: 2rem;
 }
+.geiSearch__btn a img {
+  margin: 0 auto 0.75rem;
+  text-align: center;
+}
 .geiSearch__btn a span {
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 14px;
   margin-top: 0.25rem;
 }
-.geiSearch__btn a:hover {
+.geiSearch__btn a:hover, .geiSearch__btn a.active {
   color: #ffffff;
   background-color: #2873b9;
+  background: #143A5D;
+  /* Old browsers */
+  background: -moz-linear-gradient(bottom, #143A5D 0%, #2873b9 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #143A5D), color-stop(100%, #2873b9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(bottom, #143A5D 0%, #2873b9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(bottom, #143A5D 0%, #2873b9 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(bottom, #143A5D 0%, #2873b9 100%);
+  /* IE10+ */
+  background: linear-gradient(to top, #143A5D 0%, #2873b9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#000000",GradientType=0 );
+  /* IE6-9 */
 }
 .geiSearch__input {
   margin: 0 auto;
@@ -10904,6 +10927,11 @@ table td {
 
 .white-menu .main-menu ul {
   line-height: 20px;
+}
+.white-menu .main-menu ul li a {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 .white-menu .main-menu ul li a:hover {
   color: #2873b9;

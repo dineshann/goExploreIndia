@@ -1,116 +1,10 @@
-// Colors
-// $main-color: #DF6860;
-// $heading-color: #DF6860;
-// $alt-color: #f87219;
-$text-color: #444C5E;
-$dark-font: #212326;
-$meta-color: #919BA3;
-$nav-color: #ffffff;
-$text-white: #ffffff;
-$bg-light: #f7f7f7;
-$bg-dark: #596367;
-$border-color: #e1e5e6;
-$border-light-color: rgb(172, 178, 184);
-$border-dark-color: #212326;
-
-
-$main-color: #082159;
-$heading-color: #1947B0;
-$mid-main-color: #123075;
-$alt-color: #0231cc;
-$ylw-color: #123075;
-
-
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap&subset=latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
-$Roboto: 'Roboto', sans-serif;
-$Lato: 'Lato', sans-serif;
-$Titillium: 'Titillium Web', sans-serif;
-$hcfont: 'Dr Sugiyama', cursive;
-$Raleway: 'Raleway', sans-serif;;
-
-$body-font: $Lato;
-$heading-font: $Titillium;
-
-// $body-font: 'Roboto', sans-serif;
-// $heading-font: 'Maven Pro', sans-serif; 
-
-
-// Navbar
-$nav-height: 90px;
-$nav-short-height: 90px;
-
-$radius: 100%;
-
-// Height
-$height40: 40px;
-$minh100vh: 100vh;
-
-$main-bg: linear-gradient(-50deg,$ylw-color 0,$mid-main-color 40%,$main-color 100%);
-$brand-primary: linear-gradient(100deg, $main-color, $main-color);
-$brand-secondary: linear-gradient(100deg, $main-color, $alt-color);
-$brand-two: linear-gradient(100deg, #e1e5e6, #f7f7f7);
-$bezier: cubic-bezier(.19,1,.22,1);
-
-// Border radius
-$border16: 16px;
-$border10: 10px;
-$border8: 8px;
-$border4: 4px;
-$border6: 6px;
-$border2: 2px;
-
-// Shadow
-$shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
-$shadow-l: 0 8px 10px -4px rgba(80, 80, 80, 0.2);
-
-// Layouts
-$smlg-device: 'only screen and (max-width: 1199px)';
-
-$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
-
-$laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
-$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
-$md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
-$sm-layout:'only screen and (max-width: 767px)';
-$large-mobile: 'only screen and (max-width: 575px)';
-/* container 450px*/
-$small-mobile: 'only screen and (max-width: 479px)';
-/* container 300px*/
-
-@media #{$large-mobile} {
-    .container {
-        max-width: 450px;
-    }
-}
-
-@media #{$small-mobile} {
-    .container {
-        max-width: 450px;
-    }
-}
-@media (max-width: 1920px) and (min-width: 1400px){
-    .container {
-        max-width: 1200px;
-    }
-}
-
-// Var
-$pink-color: #2873b9;
-$cpurpel: #693184;
-$darkblue: #091b30;
-$transparent: transparent;
-$white: #ffffff;
-
+// GEI Theme Var
 
 // Colors
 $cblue:                 #2873b9;
+$cblued:                #143A5D;
 $cpurpel:               #693184;
+$cpurpeld:              #351942;
 $cdark:                 #141414;
 $clight:                #f5f9ff;
 $cgrey:                 #7D7D7D;
@@ -118,10 +12,48 @@ $cwhite:                #ffffff;
 $cgreen:                #00966c;
 $bg-light:              #f7f7f7;
 $border-color:          #e1e5e6;
+$border-light-color:    rgb(172, 178, 184);
 
+$pink-color:            $cblue;
+$darkblue:              #091b30;
+$transparent:           transparent;
+$white:                 $cwhite;
+
+$text-color:            #444C5E;
+$dark-font:             #212326;
+$meta-color:            #919BA3;
+$text-white:            $cwhite;
+
+$main-color:            #082159;
+$heading-color:         $cblue;
+
+// Fonts
+@import                 url(https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap&subset=latin-ext);
+@import                 url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap);
+@import                 url("https://use.typekit.net/vhw3wot.css");
+
+$Ropa:                   ropa-mix-pro, sans-serif;
+
+$Roboto:                $Ropa;
+$Lato:                  'Lato', sans-serif;
+$Titillium:             $Ropa;
+$hcfont:                'Dr Sugiyama', cursive;
+$Raleway:               $Ropa;
+
+$body-font:             $Lato;
+$heading-font:          $Ropa;
+
+// Border radius
+$border16:              16px;
+$border10:              10px;
+$border8:               8px;
+$border4:               4px;
+$border6:               6px;
+$border2:               2px;
 
 // Shadow
 $shadow:                0px 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+$shadow-l:              0 8px 10px -4px rgba(80, 80, 80, 0.2);
 $light-bs:              0px 5px 14px -10px rgba(28, 28, 28, 0.75);
 $dark-bs:               0px 10px 20px -12px rgb(28, 28, 28, 0.5);
 $img-bs:                0px 16px 26px -14px rgba(0, 0, 0, 0.59);
@@ -129,19 +61,30 @@ $icon-bs:               0px 2rem 1.5rem -1.5rem rgba(33,37,41,0.15),0 0 1.5rem 0
 $icon-bsh:              0px 2.25rem 1.5rem -1.5rem rgba(33,37,41,0.4),0 0 1.5rem 0.5rem rgba(33,37,41,0.05);
 $bannerSha:             0px -19px 88px 15px rgb(187 201 234), -1px 0px 13px -5px rgb(179 193 229);
 
-
-// Height
-$minh100vh:             100vh;
-
-
-// Cubic
-$bezier:                cubic-bezier(.19,1,.22,1);
-
-
 // Border radius
-$radius:                100%;
 $border12:              12px;
 $border8:               8px;
 $border6:               6px;
 $border4:               4px;
 $border2:               2px;
+
+// Transition
+$all:                   all 500ms ease-in-out;
+
+
+
+// Old font-family links //
+// @import                 url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap);
+// @import                 url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap);
+// @import                 url(https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900);
+// @import                 url(https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap);
+// @import                 url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
+
+// $Roboto:                'Roboto', sans-serif;
+// $Lato:                  'Lato', sans-serif;
+// $Titillium:             'Titillium Web', sans-serif;
+// $hcfont:                'Dr Sugiyama', cursive;
+// $Raleway:               'Raleway', sans-serif;
+
+// $body-font: 'Roboto', sans-serif;
+// $heading-font: 'Maven Pro', sans-serif; 

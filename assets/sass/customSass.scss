@@ -55,6 +55,9 @@
     // align-items: center;
     li {
       a {
+        font-family: $body-font;
+        font-size: 18px;
+        font-weight: 400;
         &:hover {
           color: $pink-color;
           background: white;

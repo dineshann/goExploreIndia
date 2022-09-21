@@ -15,25 +15,35 @@
         z-index: 2;
         width: fit-content;
         margin: 0 auto -24px;
+        padding: 0.65rem;
         display: flex;
         justify-content: center;
-        background-color: $cwhite;
+        background-color: $cpurpel;
+        @include linear-gradient-from-bottom($cpurpeld, $cpurpel);
         border-radius: $border6;
         box-shadow: 0px 6px 48px -30px rgb(0 0 0 / 80%);
 
         a {
             display: grid;
-            color: $cdark;
+            color: $cwhite;
+            font-family: $Ropa;
+            text-transform: uppercase;
             min-width: 90px;
             max-width: 90px;
+            margin: 0 0.25rem;
             border-radius: $border6;
-            background: $cwhite;
+            background: transparent;
             padding: 0.5rem 1.2rem;
             text-align: center;
             text-decoration: none;
 
             i {
                 font-size: 2rem;
+            }
+
+            img {
+                margin: 0 auto .75rem;
+                text-align: center;
             }
 
             span {
@@ -43,9 +53,11 @@
                 margin-top: 0.25rem;
             }
 
-            &:hover {
+            &:hover,
+            &.active {
                 color: $cwhite;
                 background-color: $cblue;
+                @include linear-gradient-from-bottom($cblued, $cblue);
             }
         }
     }

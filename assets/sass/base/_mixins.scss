@@ -1,4 +1,4 @@
-$all: all 500ms ease-in-out;
+// All Mixins
 
 
 @mixin transition($transition...) {
@@ -94,10 +94,10 @@ $all: all 500ms ease-in-out;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
-@mixin uppercase {
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
+// @mixin uppercase {
+//   text-transform: uppercase;
+//   letter-spacing: 0.04em;
+// }
 
 @mixin background-img-cover {
   -webkit-background-size: cover;
